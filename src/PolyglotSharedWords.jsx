@@ -151,17 +151,40 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
     return () => sim.stop();
   }, [width, height, nodeData.length]);
 
-  const onDrag = (id) => d3.drag()
-    .on("start", () => {
-      const sim = simRef.current; if (!d3.event.active) sim.alphaTarget(0.2).restart();
-    })
-    .on("drag", () => {
-      const sim = simRef.current;
-      setNodes(nodes => nodes.map(n => n.id === id ? { ...n, x: d3.event.x, y: d3.event.y, fx: d3.event.x, fy: d3.event.y } : n));
-    })
-    .on("end", () => {
-      const sim = simRef.current; if (!d3.event.active) sim.alphaTarget(0);
+  // When language selection changes, "reheat" the simulation so bubbles
+  // spread out again and avoid overlapping. Also release any nodes that were
+  // fixed in place (e.g. due to dragging) so the layout can settle naturally.
+  useEffect(() => {
+    const sim = simRef.current;
+    if (!sim) return;
+    sim.nodes().forEach(n => {
+      n.fx = null;
+      n.fy = null;
     });
+    sim.alpha(0.7).restart();
+  }, [selectedLangs]);
+
+  const onDrag = (id) =>
+    d3
+      .drag()
+      .on("start", (event) => {
+        const sim = simRef.current;
+        if (!event.active) sim.alphaTarget(0.2).restart();
+      })
+      .on("drag", (event) => {
+        const sim = simRef.current;
+        setNodes((nodes) =>
+          nodes.map((n) =>
+            n.id === id
+              ? { ...n, x: event.x, y: event.y, fx: event.x, fy: event.y }
+              : n,
+          ),
+        );
+      })
+      .on("end", (event) => {
+        const sim = simRef.current;
+        if (!event.active) sim.alphaTarget(0);
+      });
 
   return (
     <div ref={containerRef} className="relative w-full overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900/60 to-slate-900/40 p-2 backdrop-blur">
