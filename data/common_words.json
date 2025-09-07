@@ -1,0 +1,155 @@
+[
+  {
+    "latin": "bazaar",
+    "gloss": "market",
+    "cat": "Commerce",
+    "langs": {
+      "marathi": "बाजार",
+      "persian": "بازار",
+      "punjabi": "ਬਜ਼ਾਰ",
+      "hindi": "बाज़ार",
+      "urdu": "بازار",
+      "indonesian": "pasar"
+    }
+  },
+  {
+    "latin": "kitab",
+    "gloss": "book",
+    "cat": "Literature",
+    "langs": {
+      "marathi": "किताब",
+      "persian": "کتاب",
+      "punjabi": "ਕਿਤਾਬ",
+      "hindi": "किताब",
+      "urdu": "کتاب",
+      "indonesian": "kitab"
+    }
+  },
+  {
+    "latin": "rang",
+    "gloss": "color",
+    "cat": "Arts",
+    "langs": {
+      "marathi": "रंग",
+      "persian": "رنگ",
+      "sanskrit": "रङ्ग",
+      "punjabi": "ਰੰਗ",
+      "hindi": "रंग",
+      "urdu": "رنگ"
+    }
+  },
+  {
+    "latin": "dost",
+    "gloss": "friend",
+    "cat": "Social",
+    "langs": {
+      "marathi": "दोस्त",
+      "persian": "دوست",
+      "punjabi": "ਦੋਸਤ",
+      "hindi": "दोस्त",
+      "urdu": "دوست",
+      "indonesian": "dost"
+    }
+  },
+  {
+    "latin": "dil",
+    "gloss": "heart",
+    "cat": "Abstract",
+    "langs": {
+      "marathi": "दिल",
+      "persian": "دل",
+      "punjabi": "ਦਿਲ",
+      "hindi": "दिल",
+      "urdu": "دل",
+      "indonesian": "dil"
+    }
+  },
+  {
+    "latin": "nazar",
+    "gloss": "gaze, sight",
+    "cat": "Abstract",
+    "langs": {
+      "marathi": "नज़र",
+      "persian": "نظر",
+      "punjabi": "ਨਜ਼ਰ",
+      "hindi": "नज़र",
+      "urdu": "نظر"
+    }
+  },
+  {
+    "latin": "khush",
+    "gloss": "happy",
+    "cat": "Abstract",
+    "langs": {
+      "marathi": "खुश",
+      "persian": "خوش",
+      "punjabi": "ਖੁਸ਼",
+      "hindi": "खुश",
+      "urdu": "خوش"
+    }
+  },
+  {
+    "latin": "qalam",
+    "gloss": "pen",
+    "cat": "Work",
+    "langs": {
+      "marathi": "कलम",
+      "persian": "قلم",
+      "punjabi": "ਕਲਮ",
+      "hindi": "क़लम",
+      "urdu": "قلم",
+      "indonesian": "kalem"
+    }
+  },
+  {
+    "latin": "faida",
+    "gloss": "benefit",
+    "cat": "Commerce",
+    "langs": {
+      "marathi": "फ़ायदा",
+      "persian": "فائده",
+      "punjabi": "ਫ਼ਾਇਦਾ",
+      "hindi": "फ़ायदा",
+      "urdu": "فائدہ",
+      "indonesian": "faedah"
+    }
+  },
+  {
+    "latin": "barf",
+    "gloss": "ice",
+    "cat": "Nature",
+    "langs": {
+      "marathi": "बर्फ",
+      "persian": "برف",
+      "punjabi": "ਬਰਫ਼",
+      "hindi": "बर्फ",
+      "urdu": "برف"
+    }
+  },
+  {
+    "latin": "avatar",
+    "gloss": "incarnation",
+    "cat": "Religion",
+    "langs": {
+      "sanskrit": "अवतार",
+      "marathi": "अवतार",
+      "punjabi": "ਅਵਤਾਰ",
+      "hindi": "अवतार",
+      "urdu": "اوتार",
+      "indonesian": "avatar"
+    }
+  },
+  {
+    "latin": "mantra",
+    "gloss": "sacred utterance",
+    "cat": "Religion",
+    "langs": {
+      "sanskrit": "मन्त्र",
+      "marathi": "मंत्र",
+      "punjabi": "ਮੰਤਰ",
+      "hindi": "मंत्र",
+      "urdu": "منتر",
+      "indonesian": "mantra"
+    }
+  }
+]
