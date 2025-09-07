@@ -5,10 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>United Lexicons</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <style>
+    #title .letter {
+      display: inline-block;
+      line-height: 1em;
+    }
+  </style>
 </head>
 <body class="min-h-screen bg-gradient-to-br from-neutral-900 via-black to-neutral-900 text-neutral-100 flex flex-col items-center p-4">
   <div class="w-full max-w-3xl text-center">
-    <h1 id="title" class="text-3xl font-bold mb-2">United Lexicons Project</h1>
+    <h1 id="title" class="text-3xl font-bold mb-2">United Lexicons</h1>
     <p id="intro" class="mb-6">Welcome to United Lexicons! This website hosts our multilingual lexical data and resources.</p>
 
     <label for="language-select" class="mb-6 inline-block">
@@ -28,33 +35,47 @@
   <script>
     const translations = {
       en: {
-        title: "United Lexicons Project",
+        title: "United Lexicons",
         intro: "Welcome to United Lexicons! This website hosts our multilingual lexical data and resources.",
       },
       hi: {
-        title: "यूनाइटेड लेक्सिकन्स परियोजना",
+        title: "यूनाइटेड लेक्सिकन्स",
         intro: "यूनाइटेड लेक्सिकन्स में आपका स्वागत है! यह वेबसाइट हमारे बहुभाषी शब्दकोश डेटा और संसाधनों की मेजबानी करती है।",
       },
       fa: {
-        title: "پروژه واژگان متحد",
+        title: "واژگان متحد",
         intro: "به United Lexicons خوش آمدید! این وب‌سایت میزبان داده‌ها و منابع واژگانی چندزبانه ماست.",
       },
       id: {
-        title: "Proyek United Lexicons",
+        title: "United Lexicons",
         intro: "Selamat datang di United Lexicons! Situs web ini menampung data dan sumber daya leksikal multibahasa kami.",
       },
       mr: {
-        title: "युनायटेड लेक्सिकन्स प्रकल्प",
+        title: "युनायटेड लेक्सिकन्स",
         intro: "युनायटेड लेक्सिकन्समध्ये आपले स्वागत आहे! ही वेबसाइट आमच्या बहुभाषिक शब्दसंग्रह डेटा आणि संसाधनांचे होस्टिंग करते.",
       },
     };
     const langSelect = document.getElementById('language-select');
+    function animateTitle(text) {
+      const titleEl = document.getElementById('title');
+      titleEl.innerHTML = text.replace(/\S/g, "<span class='letter'>$&</span>");
+      anime.timeline({loop: false})
+        .add({
+          targets: '#title .letter',
+          translateY: [50, 0],
+          opacity: [0, 1],
+          easing: 'easeOutExpo',
+          duration: 750,
+          delay: (el, i) => 30 * i
+        });
+    }
     function setLanguage(lang) {
       const t = translations[lang] || translations.en;
-      document.getElementById('title').textContent = t.title;
+      animateTitle(t.title);
       document.getElementById('intro').textContent = t.intro;
       document.documentElement.lang = lang;
     }
+    setLanguage('en');
     langSelect.addEventListener('change', e => setLanguage(e.target.value));
   </script>
   <script type="module" src="./PolyglotSharedWords.js"></script>
