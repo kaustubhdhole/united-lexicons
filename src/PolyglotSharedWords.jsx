@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { motion, AnimatePresence } from "framer-motion";
 import * as d3 from "d3";
@@ -48,22 +48,37 @@ const useMeasure = () => {
 };
 
 // tooltip
-const Tooltip = ({ x, y, show, children }) => (
-  <AnimatePresence>
-    {show && (
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.95 }}
-        transition={{ type: "spring", stiffness: 380, damping: 26 }}
-        className="pointer-events-none fixed z-50 rounded-2xl border border-white/10 bg-slate-900/80 px-3 py-2 text-sm shadow-2xl backdrop-blur-md"
-        style={{ left: x + 14, top: y + 14 }}
-      >
-        {children}
-      </motion.div>
-    )}
-  </AnimatePresence>
-);
+const Tooltip = ({ x, y, show, children }) => {
+  const ref = useRef(null);
+  const [size, setSize] = useState({ width: 0, height: 0 });
+
+  useLayoutEffect(() => {
+    if (ref.current) {
+      setSize({ width: ref.current.offsetWidth, height: ref.current.offsetHeight });
+    }
+  }, [children, show]);
+
+  const posX = clamp(x + 14, 8, (typeof window !== "undefined" ? window.innerWidth : 0) - size.width - 8);
+  const posY = clamp(y + 14, 8, (typeof window !== "undefined" ? window.innerHeight : 0) - size.height - 8);
+
+  return (
+    <AnimatePresence>
+      {show && (
+        <motion.div
+          ref={ref}
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.95 }}
+          transition={{ type: "spring", stiffness: 380, damping: 26 }}
+          className="pointer-events-none fixed z-50 rounded-2xl border border-white/10 bg-slate-900/80 px-3 py-2 text-sm shadow-2xl backdrop-blur-md"
+          style={{ left: posX, top: posY }}
+        >
+          {children}
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+};
 
 function Bubbles({ data, showScript, selectedLangs, height = 520 }) {
   const [containerRef, { width }] = useMeasure();
@@ -84,12 +99,29 @@ function Bubbles({ data, showScript, selectedLangs, height = 520 }) {
     if (!width) return;
     const initial = nodeData.map(n => ({ ...n, x: Math.random() * width, y: Math.random() * height }));
     setNodes(initial);
-    const sim = d3.forceSimulation(initial)
+
+    const floatForce = () => {
+      let nodes;
+      const force = (alpha) => {
+        for (const node of nodes) {
+          node.vx += (Math.random() - 0.5) * 0.1 * alpha;
+          node.vy += (Math.random() - 0.5) * 0.1 * alpha;
+        }
+      };
+      force.initialize = (_) => (nodes = _);
+      return force;
+    };
+
+    const sim = d3
+      .forceSimulation(initial)
+      .alphaDecay(0.05)
+      .alphaTarget(0.1)
       .force("charge", d3.forceManyBody().strength(-30))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius(d => d.r + 4))
+      .force("collision", d3.forceCollide().radius((d) => d.r + 4))
+      .force("float", floatForce())
       .on("tick", () => {
-        setNodes(prev => prev.map((p, i) => ({ ...initial[i] })));
+        setNodes((prev) => prev.map((p, i) => ({ ...initial[i] })));
       });
     simRef.current = sim;
     return () => sim.stop();
