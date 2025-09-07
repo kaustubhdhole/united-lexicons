@@ -151,5 +151,276 @@
       "urdu": "منتر",
       "indonesian": "mantra"
     }
+  },
+  {
+    "latin": "jakat",
+    "gloss": "tax",
+    "cat": "Commerce",
+    "langs": {
+      "marathi": "जकत",
+      "persian": "زکات",
+      "hindi": "ज़कात",
+      "urdu": "زکات",
+      "indonesian": "zakat"
+    }
+  },
+  {
+    "latin": "shahar",
+    "gloss": "city",
+    "cat": "Places",
+    "langs": {
+      "marathi": "शहर",
+      "persian": "شهر",
+      "punjabi": "ਸ਼ਹਿਰ",
+      "hindi": "शहर",
+      "urdu": "شہر"
+    }
+  },
+  {
+    "latin": "rumal",
+    "gloss": "handkerchief",
+    "cat": "Objects",
+    "langs": {
+      "marathi": "रुमाल",
+      "persian": "رومال",
+      "punjabi": "ਰੁਮਾਲ",
+      "hindi": "रुमाल",
+      "urdu": "رومال"
+    }
+  },
+  {
+    "latin": "imarat",
+    "gloss": "building",
+    "cat": "Places",
+    "langs": {
+      "marathi": "इमारत",
+      "persian": "عمارت",
+      "punjabi": "ਇਮਾਰਤ",
+      "hindi": "इमारत",
+      "urdu": "عمارت"
+    }
+  },
+  {
+    "latin": "talwar",
+    "gloss": "sword",
+    "cat": "Military",
+    "langs": {
+      "marathi": "तलवार",
+      "persian": "تلوار",
+      "punjabi": "ਤਲਵਾਰ",
+      "hindi": "तलवार",
+      "urdu": "تلوار"
+    }
+  },
+  {
+    "latin": "agama",
+    "gloss": "religion",
+    "cat": "Religion",
+    "langs": {
+      "sanskrit": "आगम",
+      "marathi": "आगम",
+      "hindi": "आगम",
+      "indonesian": "agama"
+    }
+  },
+  {
+    "latin": "bahasa",
+    "gloss": "language",
+    "cat": "Communication",
+    "langs": {
+      "sanskrit": "भाषा",
+      "marathi": "भाषा",
+      "hindi": "भाषा",
+      "indonesian": "bahasa"
+    }
+  },
+  {
+    "latin": "guru",
+    "gloss": "teacher",
+    "cat": "Education",
+    "langs": {
+      "sanskrit": "गुरु",
+      "marathi": "गुरु",
+      "punjabi": "ਗੁਰੂ",
+      "hindi": "गुरु",
+      "urdu": "گرو",
+      "indonesian": "guru"
+    }
+  }
+,
+  {
+    "latin": "kami",
+    "gloss": "less",
+    "cat": "Abstract",
+    "langs": {
+      "marathi": "कमी",
+      "persian": "کمی",
+      "punjabi": "ਕਮੀ",
+      "hindi": "कमी",
+      "urdu": "کمی"
+    }
+  },
+  {
+    "latin": "mulakhat",
+    "gloss": "meeting",
+    "cat": "Social",
+    "langs": {
+      "marathi": "मुलाखत",
+      "persian": "ملاقات",
+      "punjabi": "ਮੁਲਾਕਾਤ",
+      "hindi": "मुलाक़ात",
+      "urdu": "ملاقات"
+    }
+  },
+  {
+    "latin": "darbar",
+    "gloss": "court",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "दरबार",
+      "persian": "دربار",
+      "punjabi": "ਦਰਬਾਰ",
+      "hindi": "दरबार",
+      "urdu": "دربार"
+    }
+  },
+  {
+    "latin": "saheb",
+    "gloss": "sir",
+    "cat": "Titles",
+    "langs": {
+      "marathi": "साहेब",
+      "persian": "صاحب",
+      "punjabi": "ਸਾਹਿਬ",
+      "hindi": "साहब",
+      "urdu": "صاحب"
+    }
+  },
+  {
+    "latin": "sipahi",
+    "gloss": "soldier",
+    "cat": "Military",
+    "langs": {
+      "marathi": "सिपाही",
+      "persian": "سپاهی",
+      "punjabi": "ਸਿਪਾਹੀ",
+      "hindi": "सिपाही",
+      "urdu": "سپاہی"
+    }
+  },
+  {
+    "latin": "karkhana",
+    "gloss": "factory",
+    "cat": "Work",
+    "langs": {
+      "marathi": "कारखाना",
+      "persian": "کارخانه",
+      "punjabi": "ਕਾਰਖਾਨਾ",
+      "hindi": "कारख़ाना",
+      "urdu": "کارخانہ"
+    }
+  },
+  {
+    "latin": "davakhana",
+    "gloss": "hospital",
+    "cat": "Health",
+    "langs": {
+      "marathi": "दवाखाना",
+      "persian": "دواخانه",
+      "punjabi": "ਦਵਾਖਾਨਾ",
+      "hindi": "दवाख़ाना",
+      "urdu": "دواخانہ"
+    }
+  },
+  {
+    "latin": "sarkar",
+    "gloss": "government",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "सरकार",
+      "persian": "سرکار",
+      "punjabi": "ਸਰਕਾਰ",
+      "hindi": "सरकार",
+      "urdu": "سرکار"
+    }
+  },
+  {
+    "latin": "phakta",
+    "gloss": "only",
+    "cat": "Abstract",
+    "langs": {
+      "marathi": "फक्त",
+      "persian": "فقط",
+      "punjabi": "ਫਕਤ",
+      "hindi": "फ़क़त",
+      "urdu": "فقط"
+    }
+  },
+  {
+    "latin": "aawaj",
+    "gloss": "sound",
+    "cat": "Communication",
+    "langs": {
+      "marathi": "आवाज",
+      "persian": "آواز",
+      "punjabi": "ਆਵਾਜ਼",
+      "hindi": "आवाज़",
+      "urdu": "آواز"
+    }
+  },
+  {
+    "latin": "acara",
+    "gloss": "event",
+    "cat": "Culture",
+    "langs": {
+      "sanskrit": "आचार",
+      "marathi": "आचार",
+      "hindi": "आचार",
+      "indonesian": "acara"
+    }
+  },
+  {
+    "latin": "aksara",
+    "gloss": "letter",
+    "cat": "Language",
+    "langs": {
+      "sanskrit": "अक्षर",
+      "marathi": "अक्षर",
+      "hindi": "अक्षर",
+      "indonesian": "aksara"
+    }
+  },
+  {
+    "latin": "ahimsa",
+    "gloss": "non-violence",
+    "cat": "Philosophy",
+    "langs": {
+      "sanskrit": "अहिंसा",
+      "marathi": "अहिंसा",
+      "hindi": "अहिंसा",
+      "indonesian": "ahimsa"
+    }
+  },
+  {
+    "latin": "aneka",
+    "gloss": "various",
+    "cat": "Abstract",
+    "langs": {
+      "sanskrit": "अनेक",
+      "marathi": "अनेक",
+      "hindi": "अनेक",
+      "indonesian": "aneka"
+    }
+  },
+  {
+    "latin": "bahaya",
+    "gloss": "danger",
+    "cat": "Abstract",
+    "langs": {
+      "sanskrit": "भय",
+      "marathi": "भय",
+      "hindi": "भय",
+      "indonesian": "bahaya"
+    }
   }
 ]
