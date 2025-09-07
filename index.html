@@ -6,10 +6,42 @@
   <title>United Lexicons</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>United Lexicons Project</h1>
-  <p>Welcome to United Lexicons! This website hosts our multilingual lexical data and resources.</p>
-  <div id="viz-root" class="mt-4"></div>
+<body class="min-h-screen bg-gradient-to-br from-neutral-900 via-black to-neutral-900 text-neutral-100 flex flex-col items-center p-4">
+  <div class="w-full max-w-3xl text-center">
+    <h1 id="title" class="text-3xl font-bold mb-2">United Lexicons Project</h1>
+    <p id="intro" class="mb-6">Welcome to United Lexicons! This website hosts our multilingual lexical data and resources.</p>
+
+    <label for="language-select" class="mb-6 inline-block">
+      <span class="mr-2">Language:</span>
+      <select id="language-select" class="rounded bg-neutral-800 border border-neutral-700 px-2 py-1">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="viz-root" class="w-full mt-4"></div>
+
+  <script>
+    const translations = {
+      en: {
+        title: "United Lexicons Project",
+        intro: "Welcome to United Lexicons! This website hosts our multilingual lexical data and resources."
+      },
+      hi: {
+        title: "यूनाइटेड लेक्सिकन्स परियोजना",
+        intro: "यूनाइटेड लेक्सिकन्स में आपका स्वागत है! यह वेबसाइट हमारे बहुभाषी शब्दकोश डेटा और संसाधनों की मेजबानी करती है।"
+      }
+    };
+    const langSelect = document.getElementById('language-select');
+    function setLanguage(lang) {
+      const t = translations[lang] || translations.en;
+      document.getElementById('title').textContent = t.title;
+      document.getElementById('intro').textContent = t.intro;
+      document.documentElement.lang = lang;
+    }
+    langSelect.addEventListener('change', e => setLanguage(e.target.value));
+  </script>
   <script type="module" src="./PolyglotSharedWords.js"></script>
 </body>
 </html>
