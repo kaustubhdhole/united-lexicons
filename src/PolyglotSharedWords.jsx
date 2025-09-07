@@ -162,15 +162,16 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
   }, [selectedLangs, width, height]);
 
   const onDrag = (id) => d3.drag()
-    .on("start", () => {
-      const sim = simRef.current; if (!d3.event.active) sim.alphaTarget(0.2).restart();
-    })
-    .on("drag", () => {
+    .on("start", (event) => {
       const sim = simRef.current;
-      setNodes(nodes => nodes.map(n => n.id === id ? { ...n, x: d3.event.x, y: d3.event.y, fx: d3.event.x, fy: d3.event.y } : n));
+      if (!event.active) sim.alphaTarget(0.2).restart();
     })
-    .on("end", () => {
-      const sim = simRef.current; if (!d3.event.active) sim.alphaTarget(0);
+    .on("drag", (event) => {
+      setNodes(nodes => nodes.map(n => n.id === id ? { ...n, x: event.x, y: event.y, fx: event.x, fy: event.y } : n));
+    })
+    .on("end", (event) => {
+      const sim = simRef.current;
+      if (!event.active) sim.alphaTarget(0);
     });
 
   return (
