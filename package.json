@@ -1,0 +1,23 @@
+{
+  "name": "united-lexicons",
+  "version": "1.0.0",
+  "description": "This repository contains lexical resources and a simple website built with [Jekyll](https://jekyllrb.com/) and deployed via GitHub Pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "d3": "^7.9.0",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.542.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.9"
+  }
+}

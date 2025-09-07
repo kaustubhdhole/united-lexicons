@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import { createRoot } from "react-dom/client";
 import { motion, AnimatePresence } from "framer-motion";
 import * as d3 from "d3";
 import { Search, Download } from "lucide-react";
@@ -277,4 +278,11 @@ export default function PolyglotSharedWords() {
       </div>
     </div>
   );
+}
+
+// Automatically mount the visualization when this module is loaded
+const container = document.getElementById("viz-root");
+if (container) {
+  const root = createRoot(container);
+  root.render(<PolyglotSharedWords />);
 }
