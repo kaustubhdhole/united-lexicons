@@ -82,7 +82,7 @@ const Tooltip = ({ x, y, show, children }) => {
 
 const HoverPanel = ({ info }) => {
   return (
-    <div className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+    <div className="w-full rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
       {info ? (
         <div className="space-y-1">
           <div className="text-xs uppercase tracking-widest text-violet-300/90">Shared word</div>
@@ -291,8 +291,9 @@ export default function PolyglotSharedWords() {
       </div>
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-start gap-6 md:grid-cols-3">
-        <div className="md:col-span-2">
+        <div className="md:col-span-2 flex flex-col gap-6">
           <Bubbles data={data} showScript={showScript} selectedLangs={selectedLangs} height={540} onHover={setHoverInfo} />
+          <HoverPanel info={hoverInfo} />
         </div>
         <div className="sticky top-4 space-y-4">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
@@ -331,9 +332,6 @@ export default function PolyglotSharedWords() {
               })}
             </div>
           </div>
-        </div>
-        <div className="md:col-span-3">
-          <HoverPanel info={hoverInfo} />
         </div>
       </div>
     </div>
