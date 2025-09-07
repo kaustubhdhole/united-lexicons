@@ -219,6 +219,13 @@ export default function PolyglotSharedWords() {
   const [showScript, setShowScript] = useState("latin");
   const [selectedLangs, setSelectedLangs] = useState([]);
   const [hoverInfo, setHoverInfo] = useState(null);
+  const [lang, setLang] = useState(typeof window !== "undefined" ? window.currentLang || "en" : "en");
+
+  useEffect(() => {
+    const handler = (e) => setLang(e.detail);
+    window.addEventListener("languagechange", handler);
+    return () => window.removeEventListener("languagechange", handler);
+  }, []);
 
   const data = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -245,6 +252,8 @@ export default function PolyglotSharedWords() {
     return data.map(d => ({ word: d.latin, n: Object.keys(d.langs).length }));
   }, [data]);
 
+  const t = (typeof window !== "undefined" && window.translations && window.translations[lang]) || (window.translations ? window.translations.en : {});
+
   return (
     <div className="min-h-screen w-full bg-[radial-gradient(1000px_600px_at_20%_-10%,rgba(167,139,250,0.15),transparent),radial-gradient(1200px_700px_at_110%_10%,rgba(125,211,252,0.12),transparent)] from-slate-950 via-slate-950 to-slate-950 px-4 py-8 text-slate-100 sm:px-8">
       <div className="mx-auto mb-8 max-w-6xl">
@@ -253,8 +262,8 @@ export default function PolyglotSharedWords() {
           Polyglot Lexicon
           <span className="opacity-60">• Shared Words</span>
         </div>
-        <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">Multi-language Shared Words <span className="bg-gradient-to-r from-violet-400 to-cyan-300 bg-clip-text text-transparent">Explorer</span></h1>
-        <p className="mt-3 max-w-3xl text-slate-300">Select languages to highlight words common to them. Hover bubbles to see all scripts and meanings, or export the active list as JSON.</p>
+        <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">{t.subtitleMain} <span className="bg-gradient-to-r from-violet-400 to-cyan-300 bg-clip-text text-transparent">{t.subtitleHighlight}</span></h1>
+        <p className="mt-3 max-w-3xl text-slate-300">{t.selectText}</p>
       </div>
 
       <div className="mx-auto mb-6 grid max-w-6xl grid-cols-1 gap-3 md:grid-cols-12">

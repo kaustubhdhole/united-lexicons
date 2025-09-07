@@ -19,7 +19,7 @@
     <p id="intro" class="mb-6">Welcome to United Lexicons! This website hosts our multilingual lexical data and resources.</p>
 
     <label for="language-select" class="mb-6 inline-block">
-      <span class="mr-2">Language:</span>
+      <span id="language-label" class="mr-2">Language:</span>
       <select id="language-select" class="rounded bg-neutral-800 border border-neutral-700 px-2 py-1">
         <option value="en">English</option>
         <option value="hi">Hindi</option>
@@ -37,24 +37,45 @@
       en: {
         title: "United Lexicons",
         intro: "Welcome to United Lexicons! This website hosts our multilingual lexical data and resources.",
+        languageLabel: "Language:",
+        subtitleMain: "Multi-language Shared Words",
+        subtitleHighlight: "Explorer",
+        selectText: "Select languages to highlight words common to them. Hover bubbles to see all scripts and meanings, or export the active list as JSON.",
       },
       hi: {
         title: "यूनाइटेड लेक्सिकन्स",
         intro: "यूनाइटेड लेक्सिकन्स में आपका स्वागत है! यह वेबसाइट हमारे बहुभाषी शब्दकोश डेटा और संसाधनों की मेजबानी करती है।",
+        languageLabel: "भाषा:",
+        subtitleMain: "बहुभाषी साझा शब्द",
+        subtitleHighlight: "अन्वेषक",
+        selectText: "उनमें सामान्य शब्दों को हाइलाइट करने के लिए भाषाएँ चुनें। बुलबुलों पर होवर करके सभी लिपियाँ और अर्थ देखें, या सक्रिय सूची को JSON के रूप में निर्यात करें।",
       },
       fa: {
         title: "واژگان متحد",
         intro: "به United Lexicons خوش آمدید! این وب‌سایت میزبان داده‌ها و منابع واژگانی چندزبانه ماست.",
+        languageLabel: "زبان:",
+        subtitleMain: "واژه‌های مشترک چندزبانه",
+        subtitleHighlight: "کاوشگر",
+        selectText: "برای مشخص شدن واژه‌های مشترک، زبان‌ها را انتخاب کنید. برای دیدن همه خط‌ها و معانی روی حباب‌ها حرکت کنید، یا فهرست فعال را به صورت JSON صادر کنید.",
       },
       id: {
         title: "United Lexicons",
         intro: "Selamat datang di United Lexicons! Situs web ini menampung data dan sumber daya leksikal multibahasa kami.",
+        languageLabel: "Bahasa:",
+        subtitleMain: "Kata Bersama Multibahasa",
+        subtitleHighlight: "Penjelajah",
+        selectText: "Pilih bahasa untuk menyoroti kata yang sama. Arahkan kursor pada gelembung untuk melihat semua skrip dan makna, atau ekspor daftar aktif sebagai JSON.",
       },
       mr: {
         title: "युनायटेड लेक्सिकन्स",
         intro: "युनायटेड लेक्सिकन्समध्ये आपले स्वागत आहे! ही वेबसाइट आमच्या बहुभाषिक शब्दसंग्रह डेटा आणि संसाधनांचे होस्टिंग करते.",
+        languageLabel: "भाषा:",
+        subtitleMain: "बहुभाषिक सामायिक शब्द",
+        subtitleHighlight: "अन्वेषक",
+        selectText: "त्यांच्यातील समान शब्द ठळक करण्यासाठी भाषा निवडा. सर्व लिप्या आणि अर्थ पाहण्यासाठी बुडबुड्यांवर होवर करा, किंवा सक्रिय यादी JSON म्हणून निर्यात करा.",
       },
     };
+    window.translations = translations;
     const langSelect = document.getElementById('language-select');
     function animateTitle(text) {
       const titleEl = document.getElementById('title');
@@ -73,7 +94,10 @@
       const t = translations[lang] || translations.en;
       animateTitle(t.title);
       document.getElementById('intro').textContent = t.intro;
+      document.getElementById('language-label').textContent = t.languageLabel;
       document.documentElement.lang = lang;
+      window.currentLang = lang;
+      window.dispatchEvent(new CustomEvent('languagechange', { detail: lang }));
     }
     setLanguage('en');
     langSelect.addEventListener('change', e => setLanguage(e.target.value));
