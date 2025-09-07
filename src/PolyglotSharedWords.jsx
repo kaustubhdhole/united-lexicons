@@ -80,7 +80,31 @@ const Tooltip = ({ x, y, show, children }) => {
   );
 };
 
-function Bubbles({ data, showScript, selectedLangs, height = 520 }) {
+const HoverPanel = ({ info }) => {
+  return (
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+      {info ? (
+        <div className="space-y-1">
+          <div className="text-xs uppercase tracking-widest text-violet-300/90">Shared word</div>
+          <div className="flex flex-wrap items-center gap-2">
+            {Object.entries(info.langs).map(([lang, word]) => (
+              <span key={lang} className="rounded bg-white/5 px-2 py-0.5 text-[13px]">
+                {word}
+              </span>
+            ))}
+          </div>
+          <div className="text-sm text-slate-100/90"><span className="opacity-70">Latin:</span> {info.latin}</div>
+          <div className="text-xs text-slate-300/90"><span className="opacity-70">Meaning:</span> {info.gloss}</div>
+          <div className="text-[11px] text-slate-400/90">Languages: {Object.keys(info.langs).length}</div>
+        </div>
+      ) : (
+        <div className="text-sm text-slate-300/80">Hover a bubble to see details here.</div>
+      )}
+    </div>
+  );
+};
+
+function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
   const [containerRef, { width }] = useMeasure();
   const [nodes, setNodes] = useState([]);
   const simRef = useRef(null);
@@ -155,8 +179,8 @@ function Bubbles({ data, showScript, selectedLangs, height = 520 }) {
           return (
             <g key={n.id}
                transform={`translate(${clamp(n.x || 0, n.r, width - n.r)}, ${clamp(n.y || 0, n.r, height - n.r)})`}
-               onMouseEnter={(e) => setHover({ x: e.clientX, y: e.clientY, node: n })}
-               onMouseLeave={() => setHover(null)}
+               onMouseEnter={(e) => { setHover({ x: e.clientX, y: e.clientY, node: n }); onHover?.(n.d); }}
+               onMouseLeave={() => { setHover(null); onHover?.(null); }}
                ref={(el) => { if (!el) return; d3.select(el).call(onDrag(n.id)); }}
             >
               <circle r={n.r} fill="url(#glow)" className={`stroke-white/20 ${active ? '' : 'opacity-30'}`} />
@@ -194,6 +218,7 @@ export default function PolyglotSharedWords() {
   const [query, setQuery] = useState("");
   const [showScript, setShowScript] = useState("latin");
   const [selectedLangs, setSelectedLangs] = useState([]);
+  const [hoverInfo, setHoverInfo] = useState(null);
 
   const data = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -267,7 +292,7 @@ export default function PolyglotSharedWords() {
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-start gap-6 md:grid-cols-3">
         <div className="md:col-span-2">
-          <Bubbles data={data} showScript={showScript} selectedLangs={selectedLangs} height={540} />
+          <Bubbles data={data} showScript={showScript} selectedLangs={selectedLangs} height={540} onHover={setHoverInfo} />
         </div>
         <div className="sticky top-4 space-y-4">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
@@ -306,6 +331,9 @@ export default function PolyglotSharedWords() {
               })}
             </div>
           </div>
+        </div>
+        <div className="md:col-span-3">
+          <HoverPanel info={hoverInfo} />
         </div>
       </div>
     </div>
