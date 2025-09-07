@@ -1,1 +1,13 @@
 # United Lexicons Project
+
+This repository contains lexical resources and a simple website built with [Jekyll](https://jekyllrb.com/) and deployed via GitHub Pages.
+
+## Local development
+
+If you have Jekyll installed, you can build the site locally:
+
+```sh
+jekyll serve
+```
+
+Then open `http://localhost:4000` in your browser.
