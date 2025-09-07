@@ -151,6 +151,16 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
     return () => sim.stop();
   }, [width, height, nodeData.length]);
 
+  useEffect(() => {
+    const sim = simRef.current;
+    if (!sim || !width) return;
+    sim.nodes().forEach(n => {
+      n.x = Math.random() * width;
+      n.y = Math.random() * height;
+    });
+    sim.alpha(1).restart();
+  }, [selectedLangs, width, height]);
+
   const onDrag = (id) => d3.drag()
     .on("start", () => {
       const sim = simRef.current; if (!d3.event.active) sim.alphaTarget(0.2).restart();
