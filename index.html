@@ -16,6 +16,9 @@
       <select id="language-select" class="rounded bg-neutral-800 border border-neutral-700 px-2 py-1">
         <option value="en">English</option>
         <option value="hi">Hindi</option>
+        <option value="fa">Persian</option>
+        <option value="id">Indonesian</option>
+        <option value="mr">Marathi</option>
       </select>
     </label>
   </div>
@@ -26,12 +29,24 @@
     const translations = {
       en: {
         title: "United Lexicons Project",
-        intro: "Welcome to United Lexicons! This website hosts our multilingual lexical data and resources."
+        intro: "Welcome to United Lexicons! This website hosts our multilingual lexical data and resources.",
       },
       hi: {
         title: "यूनाइटेड लेक्सिकन्स परियोजना",
-        intro: "यूनाइटेड लेक्सिकन्स में आपका स्वागत है! यह वेबसाइट हमारे बहुभाषी शब्दकोश डेटा और संसाधनों की मेजबानी करती है।"
-      }
+        intro: "यूनाइटेड लेक्सिकन्स में आपका स्वागत है! यह वेबसाइट हमारे बहुभाषी शब्दकोश डेटा और संसाधनों की मेजबानी करती है।",
+      },
+      fa: {
+        title: "پروژه واژگان متحد",
+        intro: "به United Lexicons خوش آمدید! این وب‌سایت میزبان داده‌ها و منابع واژگانی چندزبانه ماست.",
+      },
+      id: {
+        title: "Proyek United Lexicons",
+        intro: "Selamat datang di United Lexicons! Situs web ini menampung data dan sumber daya leksikal multibahasa kami.",
+      },
+      mr: {
+        title: "युनायटेड लेक्सिकन्स प्रकल्प",
+        intro: "युनायटेड लेक्सिकन्समध्ये आपले स्वागत आहे! ही वेबसाइट आमच्या बहुभाषिक शब्दसंग्रह डेटा आणि संसाधनांचे होस्टिंग करते.",
+      },
     };
     const langSelect = document.getElementById('language-select');
     function setLanguage(lang) {
