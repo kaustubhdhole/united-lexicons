@@ -145,11 +145,11 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
       .force("collision", d3.forceCollide().radius((d) => d.r + 4))
       .force("float", floatForce())
       .on("tick", () => {
-        setNodes((prev) => prev.map((p, i) => ({ ...initial[i] })));
+        setNodes(sim.nodes().map((node) => ({ ...node })));
       });
     simRef.current = sim;
     return () => sim.stop();
-  }, [width, height, nodeData.length]);
+  }, [width, height, nodeData]);
 
   // When language selection changes, "reheat" the simulation so bubbles
   // spread out again and avoid overlapping. Also release any nodes that were
