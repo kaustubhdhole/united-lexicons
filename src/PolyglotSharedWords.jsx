@@ -110,7 +110,8 @@ const HoverPanel = ({ info }) => {
 
 const randomFloatMeta = () => ({
   angle: Math.random() * Math.PI * 2,
-  speed: 0.05 + Math.random() * 0.25,
+  // Keep bubbles gently drifting instead of racing across the canvas.
+  speed: 0.006 + Math.random() * 0.012,
 });
 
 const normalizeAngle = (angle) => {
@@ -159,7 +160,7 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
           const meta = ensureMeta(node);
           if (Math.random() < 0.01) {
             meta.angle = normalizeAngle(meta.angle + (Math.random() - 0.5) * (Math.PI / 3));
-            meta.speed = clamp(meta.speed + (Math.random() - 0.5) * 0.05, 0.04, 0.35);
+            meta.speed = clamp(meta.speed + (Math.random() - 0.5) * 0.003, 0.004, 0.02);
           }
           node.vx += Math.cos(meta.angle) * meta.speed * alpha;
           node.vy += Math.sin(meta.angle) * meta.speed * alpha;
@@ -225,14 +226,14 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
       n.fx = null;
       n.fy = null;
     });
-    sim.alpha(0.7).restart();
+    sim.alpha(0.25).restart();
   }, [selectedLangs]);
 
   useEffect(() => {
     const sim = simRef.current;
     if (!sim) return;
     if (isMoving) {
-      sim.alpha(0.4).restart();
+      sim.alpha(0.2).restart();
     } else {
       sim.alphaTarget(0);
       sim.nodes().forEach((node) => {
@@ -248,7 +249,7 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
       .drag()
       .on("start", (event) => {
         const sim = simRef.current;
-        if (!event.active) sim.alphaTarget(0.2).restart();
+        if (!event.active) sim.alphaTarget(0.08).restart();
       })
       .on("drag", (event) => {
         const sim = simRef.current;
