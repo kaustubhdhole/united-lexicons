@@ -104,11 +104,27 @@ const HoverPanel = ({ info }) => {
   );
 };
 
-function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
+const randomFloatMeta = () => ({
+  angle: Math.random() * Math.PI * 2,
+  speed: 0.05 + Math.random() * 0.25,
+});
+
+const normalizeAngle = (angle) => {
+  const tau = Math.PI * 2;
+  return ((angle % tau) + tau) % tau;
+};
+
+function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMoving }) {
   const [containerRef, { width }] = useMeasure();
   const [nodes, setNodes] = useState([]);
   const simRef = useRef(null);
   const [hover, setHover] = useState(null);
+  const floatMetaRef = useRef(new Map());
+  const isMovingRef = useRef(isMoving);
+
+  useEffect(() => {
+    isMovingRef.current = isMoving;
+  }, [isMoving]);
 
   const nodeData = useMemo(() => {
     return data.map((d, i) => ({
@@ -125,14 +141,30 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
     setNodes(initial);
 
     const floatForce = () => {
-      let nodes;
+      let localNodes = [];
+      const ensureMeta = (node) => {
+        if (!floatMetaRef.current.has(node.id)) {
+          floatMetaRef.current.set(node.id, randomFloatMeta());
+        }
+        return floatMetaRef.current.get(node.id);
+      };
+
       const force = (alpha) => {
-        for (const node of nodes) {
-          node.vx += (Math.random() - 0.5) * 0.1 * alpha;
-          node.vy += (Math.random() - 0.5) * 0.1 * alpha;
+        if (!isMovingRef.current) return;
+        for (const node of localNodes) {
+          const meta = ensureMeta(node);
+          if (Math.random() < 0.01) {
+            meta.angle = normalizeAngle(meta.angle + (Math.random() - 0.5) * (Math.PI / 3));
+            meta.speed = clamp(meta.speed + (Math.random() - 0.5) * 0.05, 0.04, 0.35);
+          }
+          node.vx += Math.cos(meta.angle) * meta.speed * alpha;
+          node.vy += Math.sin(meta.angle) * meta.speed * alpha;
         }
       };
-      force.initialize = (_) => (nodes = _);
+      force.initialize = (nodesArg) => {
+        localNodes = nodesArg;
+        floatMetaRef.current = new Map(localNodes.map((node) => [node.id, randomFloatMeta()]));
+      };
       return force;
     };
 
@@ -145,7 +177,35 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
       .force("collision", d3.forceCollide().radius((d) => d.r + 4))
       .force("float", floatForce())
       .on("tick", () => {
-        setNodes(sim.nodes().map((node) => ({ ...node })));
+        const simNodes = sim.nodes();
+        simNodes.forEach((node) => {
+          const meta = floatMetaRef.current.get(node.id);
+          if (node.x != null) {
+            if (node.x < node.r) {
+              node.x = node.r;
+              if (meta && isMovingRef.current) meta.angle = normalizeAngle(Math.PI - meta.angle);
+            } else if (node.x > width - node.r) {
+              node.x = width - node.r;
+              if (meta && isMovingRef.current) meta.angle = normalizeAngle(Math.PI - meta.angle);
+            }
+          }
+          if (node.y != null) {
+            if (node.y < node.r) {
+              node.y = node.r;
+              if (meta && isMovingRef.current) meta.angle = normalizeAngle(-meta.angle);
+            } else if (node.y > height - node.r) {
+              node.y = height - node.r;
+              if (meta && isMovingRef.current) meta.angle = normalizeAngle(-meta.angle);
+            }
+          }
+        });
+        if (!isMovingRef.current) {
+          simNodes.forEach((node) => {
+            node.vx = 0;
+            node.vy = 0;
+          });
+        }
+        setNodes(simNodes.map((node) => ({ ...node })));
       });
     simRef.current = sim;
     return () => sim.stop();
@@ -164,6 +224,21 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
     sim.alpha(0.7).restart();
   }, [selectedLangs]);
 
+  useEffect(() => {
+    const sim = simRef.current;
+    if (!sim) return;
+    if (isMoving) {
+      sim.alpha(0.4).restart();
+    } else {
+      sim.alphaTarget(0);
+      sim.nodes().forEach((node) => {
+        node.vx = 0;
+        node.vy = 0;
+      });
+      setNodes(sim.nodes().map((node) => ({ ...node })));
+    }
+  }, [isMoving]);
+
   const onDrag = (id) =>
     d3
       .drag()
@@ -173,16 +248,27 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover }) {
       })
       .on("drag", (event) => {
         const sim = simRef.current;
-        setNodes((nodes) =>
-          nodes.map((n) =>
-            n.id === id
-              ? { ...n, x: event.x, y: event.y, fx: event.x, fy: event.y }
-              : n,
-          ),
-        );
+        if (!sim) return;
+        const node = sim.nodes().find((n) => n.id === id);
+        if (!node) return;
+        const clampedX = clamp(event.x, node.r, width - node.r);
+        const clampedY = clamp(event.y, node.r, height - node.r);
+        node.fx = clampedX;
+        node.fy = clampedY;
+        node.x = clampedX;
+        node.y = clampedY;
+        node.vx = 0;
+        node.vy = 0;
+        setNodes(sim.nodes().map((n) => ({ ...n })));
       })
       .on("end", (event) => {
         const sim = simRef.current;
+        if (!sim) return;
+        const node = sim.nodes().find((n) => n.id === id);
+        if (node) {
+          node.fx = null;
+          node.fy = null;
+        }
         if (!event.active) sim.alphaTarget(0);
       });
 
@@ -242,6 +328,7 @@ export default function PolyglotSharedWords() {
   const [showScript, setShowScript] = useState("latin");
   const [selectedLangs, setSelectedLangs] = useState([]);
   const [hoverInfo, setHoverInfo] = useState(null);
+  const [isMoving, setIsMoving] = useState(true);
   const [lang, setLang] = useState(typeof window !== "undefined" ? window.currentLang || "en" : "en");
 
   useEffect(() => {
@@ -324,10 +411,31 @@ export default function PolyglotSharedWords() {
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-start gap-6 md:grid-cols-3">
         <div className="md:col-span-2 flex flex-col gap-6">
-          <Bubbles data={data} showScript={showScript} selectedLangs={selectedLangs} height={540} onHover={setHoverInfo} />
+          <Bubbles
+            data={data}
+            showScript={showScript}
+            selectedLangs={selectedLangs}
+            height={540}
+            onHover={setHoverInfo}
+            isMoving={isMoving}
+          />
           <HoverPanel info={hoverInfo} />
         </div>
         <div className="sticky top-4 space-y-4">
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+            <label className="flex cursor-pointer items-start gap-3">
+              <input
+                type="checkbox"
+                checked={isMoving}
+                onChange={(e) => setIsMoving(e.target.checked)}
+                className="mt-1 h-4 w-4 rounded border-white/40 bg-transparent text-violet-400 focus:ring-violet-400"
+              />
+              <span>
+                <span className="block text-sm font-semibold uppercase tracking-wider text-slate-100">Animate bubbles</span>
+                <span className="block text-xs text-slate-300/80">Toggle floating motion. Dragging works either way.</span>
+              </span>
+            </label>
+          </div>
           <div className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
             <div className="mb-3 flex items-center justify-between">
               <div className="text-sm font-semibold uppercase tracking-wider opacity-80">Overview</div>
