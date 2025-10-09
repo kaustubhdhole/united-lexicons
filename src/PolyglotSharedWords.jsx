@@ -9,7 +9,7 @@ import words from "../data/common_words.json";
 const clamp = (v, min, max) => Math.min(max, Math.max(min, v));
 
 // Language metadata
-const LANGS = ["marathi", "persian", "sanskrit", "punjabi", "hindi", "urdu", "indonesian"];
+const LANGS = ["marathi", "persian", "sanskrit", "punjabi", "hindi", "urdu", "indonesian", "avestan"];
 const LANG_LABEL = {
   marathi: "Marathi",
   persian: "Persian",
@@ -18,6 +18,7 @@ const LANG_LABEL = {
   hindi: "Hindi",
   urdu: "Urdu",
   indonesian: "Indonesian",
+  avestan: "Avestan",
 };
 
 const SCRIPT_OPTIONS = [
@@ -29,6 +30,7 @@ const SCRIPT_OPTIONS = [
   ["hindi", "HI"],
   ["urdu", "UR"],
   ["indonesian", "ID"],
+  ["avestan", "AV"],
 ];
 
 // resize observer

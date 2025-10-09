@@ -422,5 +422,62 @@
       "hindi": "भय",
       "indonesian": "bahaya"
     }
+  },
+  {
+    "latin": "asti",
+    "gloss": "is; exists (copula, classical)",
+    "cat": "Function",
+    "langs": {
+      "sanskrit": "अस्ति",
+      "marathi": "अस्ति",
+      "hindi": "अस्ति",
+      "avestan": "asti"
+    }
+  },
+  {
+    "latin": "gatha",
+    "gloss": "song; stanza; narrative verse",
+    "cat": "Literature",
+    "langs": {
+      "sanskrit": "गाथा",
+      "marathi": "गाथा",
+      "hindi": "गाथा",
+      "avestan": "gāθā"
+    }
+  },
+  {
+    "latin": "bhumi",
+    "gloss": "earth; land; soil",
+    "cat": "Nature",
+    "langs": {
+      "sanskrit": "भूमि",
+      "marathi": "भूमी",
+      "hindi": "भूमि",
+      "indonesian": "bumi",
+      "avestan": "būmi"
+    }
+  },
+  {
+    "latin": "namah",
+    "gloss": "obeisance; salutation",
+    "cat": "Religion",
+    "langs": {
+      "sanskrit": "नमः",
+      "marathi": "नमः",
+      "hindi": "नमः",
+      "avestan": "nəmō"
+    }
+  },
+  {
+    "latin": "yasna",
+    "gloss": "sacrifice; worship (Avestan rite)",
+    "cat": "Religion",
+    "langs": {
+      "sanskrit": "यज्ञ",
+      "marathi": "यज्ञ",
+      "hindi": "यज्ञ",
+      "indonesian": "yadnya",
+      "avestan": "yašna"
+    }
   }
 ]
