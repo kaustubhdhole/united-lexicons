@@ -1,0 +1,4292 @@
+[
+  {
+    "latin": "andaaz",
+    "gloss": "estimate",
+    "cat": "",
+    "langs": {
+      "marathi": "अंदाज",
+      "persian": "اندازه",
+      "punjabi": "ਅੰਦਾਜ",
+      "hindi": "अंदाज",
+      "urdu": "اندازه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "ammal",
+    "gloss": "domination, rule, execution, carrying out",
+    "cat": "",
+    "langs": {
+      "marathi": "अंमल",
+      "persian": "عمل",
+      "punjabi": "ਅੰਮਲ",
+      "hindi": "अंमल",
+      "urdu": "عمل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "akkal",
+    "gloss": "intelligence, brains",
+    "cat": "",
+    "langs": {
+      "marathi": "अक्कल",
+      "persian": "عقل",
+      "punjabi": "ਅਕਕਲ",
+      "hindi": "अक्कल",
+      "urdu": "عقل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "akher",
+    "gloss": "end",
+    "cat": "",
+    "langs": {
+      "marathi": "अखेर",
+      "persian": "آخر",
+      "punjabi": "ਅਖੇਰ",
+      "hindi": "अखेर",
+      "urdu": "آخر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "agar",
+    "gloss": "or",
+    "cat": "",
+    "langs": {
+      "marathi": "अगर",
+      "persian": "اگر",
+      "punjabi": "ਅਗਰ",
+      "hindi": "अगर",
+      "urdu": "اگر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "ajab",
+    "gloss": "strange, surprise, wonder",
+    "cat": "",
+    "langs": {
+      "marathi": "अजब",
+      "persian": "عجب",
+      "punjabi": "ਅਜਬ",
+      "hindi": "अजब",
+      "urdu": "عجب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "azun",
+    "gloss": "still, yet, more",
+    "cat": "",
+    "langs": {
+      "marathi": "अजून",
+      "persian": "آذون",
+      "punjabi": "ਅਜੂਨ",
+      "hindi": "अजून",
+      "urdu": "آذون",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "attar",
+    "gloss": "perfume, scent",
+    "cat": "",
+    "langs": {
+      "marathi": "अत्तर",
+      "persian": "عطر",
+      "punjabi": "ਅਤਤਰ",
+      "hindi": "अत्तर",
+      "urdu": "عطر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "adab",
+    "gloss": "honour, respect, politeness",
+    "cat": "",
+    "langs": {
+      "marathi": "अदब",
+      "persian": "ادب",
+      "punjabi": "ਅਦਬ",
+      "hindi": "अदब",
+      "urdu": "ادب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "afwaa",
+    "gloss": "rumour, hearsay",
+    "cat": "",
+    "langs": {
+      "marathi": "अफवा",
+      "persian": "افواه",
+      "punjabi": "ਅਫਵਾ",
+      "hindi": "अफवा",
+      "urdu": "افواه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "afoo",
+    "gloss": "opium",
+    "cat": "",
+    "langs": {
+      "marathi": "अफू",
+      "persian": "افیون",
+      "punjabi": "ਅਫੂ",
+      "hindi": "अफू",
+      "urdu": "افیون",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "abhraa",
+    "gloss": "pillowcase, case, cover",
+    "cat": "",
+    "langs": {
+      "marathi": "अभ्रा",
+      "persian": "ابرا",
+      "punjabi": "ਅਭਰਾ",
+      "hindi": "अभ्रा",
+      "urdu": "ابرا",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "arza",
+    "gloss": "application, request",
+    "cat": "",
+    "langs": {
+      "marathi": "अर्ज",
+      "persian": "ارز",
+      "punjabi": "ਅਰਜ",
+      "hindi": "अर्ज",
+      "urdu": "ارز",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "asaamee",
+    "gloss": "person, individual",
+    "cat": "",
+    "langs": {
+      "marathi": "असामी",
+      "persian": "اسامی",
+      "punjabi": "ਅਸਾਮੀ",
+      "hindi": "असामी",
+      "urdu": "اسامی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "asmaan",
+    "gloss": "sky",
+    "cat": "",
+    "langs": {
+      "marathi": "अस्मान",
+      "persian": "آسمان",
+      "punjabi": "ਅਸਮਾਨ",
+      "hindi": "अस्मान",
+      "urdu": "آسمان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "assal",
+    "gloss": "authentic, real, original",
+    "cat": "",
+    "langs": {
+      "marathi": "अस्सल",
+      "persian": "اصل",
+      "punjabi": "ਅਸਸਲ",
+      "hindi": "अस्सल",
+      "urdu": "اصل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "ahawaal",
+    "gloss": "report",
+    "cat": "",
+    "langs": {
+      "marathi": "अहवाल",
+      "persian": "احوال",
+      "punjabi": "ਅਹਵਾਲ",
+      "hindi": "अहवाल",
+      "urdu": "احوال",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "aazaar",
+    "gloss": "illness, disease",
+    "cat": "",
+    "langs": {
+      "marathi": "आजार",
+      "persian": "آزار",
+      "punjabi": "ਆਜਾਰ",
+      "hindi": "आजार",
+      "urdu": "آزار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "aazaaree",
+    "gloss": "sick, ill",
+    "cat": "",
+    "langs": {
+      "marathi": "आजारी",
+      "persian": "آزاری",
+      "punjabi": "ਆਜਾਰੀ",
+      "hindi": "आजारी",
+      "urdu": "آزاری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "aaraam",
+    "gloss": "rest",
+    "cat": "",
+    "langs": {
+      "marathi": "आराम",
+      "persian": "آرام",
+      "punjabi": "ਆਰਾਮ",
+      "hindi": "आराम",
+      "urdu": "آرام",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "aawaaz",
+    "gloss": "sound, voice",
+    "cat": "",
+    "langs": {
+      "marathi": "आवाज",
+      "persian": "آواز",
+      "punjabi": "ਆਵਾਜ",
+      "hindi": "आवाज",
+      "urdu": "آواز",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "ingraz",
+    "gloss": "Englishman",
+    "cat": "",
+    "langs": {
+      "marathi": "इंग्रज",
+      "persian": "انگریزی",
+      "punjabi": "ਇੰਗਰਜ",
+      "hindi": "इंग्रज",
+      "urdu": "انگریزی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "ingrajee",
+    "gloss": "English",
+    "cat": "",
+    "langs": {
+      "marathi": "इंग्रजी",
+      "persian": "انگریز",
+      "punjabi": "ਇੰਗਰਜੀ",
+      "hindi": "इंग्रजी",
+      "urdu": "انگریز",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "imaarat",
+    "gloss": "building",
+    "cat": "",
+    "langs": {
+      "marathi": "इमारत",
+      "persian": "عمارت",
+      "punjabi": "ਇਮਾਰਤ",
+      "hindi": "इमारत",
+      "urdu": "عمارت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "iraadaa",
+    "gloss": "intention",
+    "cat": "",
+    "langs": {
+      "marathi": "इरादा",
+      "persian": "اراده",
+      "punjabi": "ਇਰਾਦਾ",
+      "hindi": "इरादा",
+      "urdu": "اراده",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "ilaaz",
+    "gloss": "cure, solution",
+    "cat": "",
+    "langs": {
+      "marathi": "इलाज",
+      "persian": "علاج",
+      "punjabi": "ਇਲਾਜ",
+      "hindi": "इलाज",
+      "urdu": "علاج",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "isam",
+    "gloss": "person, wight",
+    "cat": "",
+    "langs": {
+      "marathi": "इसम",
+      "persian": "اسم",
+      "punjabi": "ਇਸਮ",
+      "hindi": "इसम",
+      "urdu": "اسم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "umed",
+    "gloss": "zeal, hope",
+    "cat": "",
+    "langs": {
+      "marathi": "उमेद",
+      "persian": "امید",
+      "punjabi": "ਉਮੇਦ",
+      "hindi": "उमेद",
+      "urdu": "امید",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "aiwaz",
+    "gloss": "property",
+    "cat": "",
+    "langs": {
+      "marathi": "ऐवज",
+      "persian": "",
+      "punjabi": "ਐਵਜ",
+      "hindi": "ऐवज",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "aiwajee",
+    "gloss": "instead of",
+    "cat": "",
+    "langs": {
+      "marathi": "ऐवजी",
+      "persian": "عوض",
+      "punjabi": "ਐਵਜੀ",
+      "hindi": "ऐवजी",
+      "urdu": "عوض",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "aulaad",
+    "gloss": "son, child",
+    "cat": "",
+    "langs": {
+      "marathi": "औलाद",
+      "persian": "اولاد",
+      "punjabi": "ਔਲਾਦ",
+      "hindi": "औलाद",
+      "urdu": "اولاد",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kandeel",
+    "gloss": "lamp",
+    "cat": "",
+    "langs": {
+      "marathi": "कंदील",
+      "persian": "",
+      "punjabi": "ਕੰਦੀਲ",
+      "hindi": "कंदील",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kadar",
+    "gloss": "value",
+    "cat": "",
+    "langs": {
+      "marathi": "कदर",
+      "persian": "قدر",
+      "punjabi": "ਕਦਰ",
+      "hindi": "कदर",
+      "urdu": "قدر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kabutar",
+    "gloss": "pigeon",
+    "cat": "",
+    "langs": {
+      "marathi": "कबुतर",
+      "persian": "کبوتر",
+      "punjabi": "ਕਬੁਤਰ",
+      "hindi": "कबुतर",
+      "urdu": "کبوتر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kabool",
+    "gloss": "agree, admit",
+    "cat": "",
+    "langs": {
+      "marathi": "कबूल",
+      "persian": "قبول",
+      "punjabi": "ਕਬੂਲ",
+      "hindi": "कबूल",
+      "urdu": "قبول",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kamaal",
+    "gloss": "surprise, awesomeness, maximum, limit",
+    "cat": "",
+    "langs": {
+      "marathi": "कमाल",
+      "persian": "کمال",
+      "punjabi": "ਕਮਾਲ",
+      "hindi": "कमाल",
+      "urdu": "کمال",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kamee",
+    "gloss": "less",
+    "cat": "",
+    "langs": {
+      "marathi": "कमी",
+      "persian": "کمی",
+      "punjabi": "ਕਮੀ",
+      "hindi": "कमी",
+      "urdu": "کمی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kayaas",
+    "gloss": "hypothesis, inference?",
+    "cat": "",
+    "langs": {
+      "marathi": "कयास",
+      "persian": "قیاس",
+      "punjabi": "ਕਯਾਸ",
+      "hindi": "कयास",
+      "urdu": "قیاس",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "karaar",
+    "gloss": "agreement, accord",
+    "cat": "",
+    "langs": {
+      "marathi": "करार",
+      "persian": "قرار",
+      "punjabi": "ਕਰਾਰ",
+      "hindi": "करार",
+      "urdu": "قرار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "karza",
+    "gloss": "loan",
+    "cat": "",
+    "langs": {
+      "marathi": "कर्ज",
+      "persian": "قرض",
+      "punjabi": "ਕਰਜ",
+      "hindi": "कर्ज",
+      "urdu": "قرض",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kasar",
+    "gloss": "lacking, deficiency",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "कसर",
+      "persian": "کسر",
+      "punjabi": "ਕਸਰ",
+      "hindi": "कसर",
+      "urdu": "کسر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kaakaa",
+    "gloss": "uncle, father’s brother",
+    "cat": "",
+    "langs": {
+      "marathi": "काका",
+      "persian": "کاکا",
+      "punjabi": "ਕਾਕਾ",
+      "hindi": "काका",
+      "urdu": "کاکا",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kaagad",
+    "gloss": "paper",
+    "cat": "",
+    "langs": {
+      "marathi": "कागद",
+      "persian": "کاغذ",
+      "punjabi": "ਕਾਗਦ",
+      "hindi": "कागद",
+      "urdu": "کاغذ",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kaaydaa",
+    "gloss": "law, rule",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "कायदा",
+      "persian": "قاعده",
+      "punjabi": "ਕਾਯਦਾ",
+      "hindi": "कायदा",
+      "urdu": "قاعده",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kaayam",
+    "gloss": "always",
+    "cat": "",
+    "langs": {
+      "marathi": "कायम",
+      "persian": "قائم",
+      "punjabi": "ਕਾਯਮ",
+      "hindi": "कायम",
+      "urdu": "قائم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kaarkhaanaa",
+    "gloss": "factory",
+    "cat": "",
+    "langs": {
+      "marathi": "कारखाना",
+      "persian": "کارخانه",
+      "punjabi": "ਕਾਰਖਾਨਾ",
+      "hindi": "कारखाना",
+      "urdu": "کارخانه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kimmat",
+    "gloss": "price, value",
+    "cat": "Commerce",
+    "langs": {
+      "marathi": "किंमत",
+      "persian": "قیمت",
+      "punjabi": "ਕਿੰਮਤ",
+      "hindi": "किंमत",
+      "urdu": "قیمت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kinaar",
+    "gloss": "edge, hem",
+    "cat": "",
+    "langs": {
+      "marathi": "किनार",
+      "persian": "کنار",
+      "punjabi": "ਕਿਨਾਰ",
+      "hindi": "किनार",
+      "urdu": "کنار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kimayaa",
+    "gloss": "alchemy, magic",
+    "cat": "",
+    "langs": {
+      "marathi": "किमया",
+      "persian": "کیمیاء",
+      "punjabi": "ਕਿਮਯਾ",
+      "hindi": "किमया",
+      "urdu": "کیمیاء",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kimayaagaar",
+    "gloss": "alchemist",
+    "cat": "",
+    "langs": {
+      "marathi": "किमयागार",
+      "persian": "کیمیاگر",
+      "punjabi": "ਕਿਮਯਾਗਾਰ",
+      "hindi": "किमयागार",
+      "urdu": "کیمیاگر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "killaa",
+    "gloss": "fort",
+    "cat": "",
+    "langs": {
+      "marathi": "किल्ला",
+      "persian": "قلعه",
+      "punjabi": "ਕਿਲਲਾ",
+      "hindi": "किल्ला",
+      "urdu": "قلعه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kissaa",
+    "gloss": "incident, story",
+    "cat": "Literature",
+    "langs": {
+      "marathi": "किस्सा",
+      "persian": "قصه",
+      "punjabi": "ਕਿਸਸਾ",
+      "hindi": "किस्सा",
+      "urdu": "قصه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kuvat",
+    "gloss": "capacity",
+    "cat": "",
+    "langs": {
+      "marathi": "कुवत",
+      "persian": "قوت",
+      "punjabi": "ਕੁਵਤ",
+      "hindi": "कुवत",
+      "urdu": "قوت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kustee",
+    "gloss": "wrestling",
+    "cat": "",
+    "langs": {
+      "marathi": "कुस्ती",
+      "persian": "کشتی",
+      "punjabi": "ਕੁਸਤੀ",
+      "hindi": "कुस्ती",
+      "urdu": "کشتی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kaid",
+    "gloss": "imprisoned",
+    "cat": "",
+    "langs": {
+      "marathi": "कैद",
+      "persian": "قید",
+      "punjabi": "ਕੈਦ",
+      "hindi": "कैद",
+      "urdu": "قید",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kaidee",
+    "gloss": "prisoner",
+    "cat": "",
+    "langs": {
+      "marathi": "कैदी",
+      "persian": "قیدی",
+      "punjabi": "ਕੈਦੀ",
+      "hindi": "कैदी",
+      "urdu": "قیدی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kotwaal",
+    "gloss": "",
+    "cat": "",
+    "langs": {
+      "marathi": "कोतवाल",
+      "persian": "کوتوال",
+      "punjabi": "ਕੋਤਵਾਲ",
+      "hindi": "कोतवाल",
+      "urdu": "کوتوال",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khanjeer",
+    "gloss": "dagger",
+    "cat": "",
+    "langs": {
+      "marathi": "खंजीर",
+      "persian": "خنجر",
+      "punjabi": "ਖੰਜੀਰ",
+      "hindi": "खंजीर",
+      "urdu": "خنجر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khajinaa",
+    "gloss": "treasure",
+    "cat": "",
+    "langs": {
+      "marathi": "खजिना",
+      "persian": "خزانه",
+      "punjabi": "ਖਜਿਨਾ",
+      "hindi": "खजिना",
+      "urdu": "خزانه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khabar",
+    "gloss": "news",
+    "cat": "",
+    "langs": {
+      "marathi": "खबर",
+      "persian": "خبر",
+      "punjabi": "ਖਬਰ",
+      "hindi": "खबर",
+      "urdu": "خبر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khabardaar",
+    "gloss": "beware",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "खबरदार",
+      "persian": "خبر دار",
+      "punjabi": "ਖਬਰਦਾਰ",
+      "hindi": "खबरदार",
+      "urdu": "خبر دار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khabardaaree",
+    "gloss": "care, caution, precaution",
+    "cat": "",
+    "langs": {
+      "marathi": "खबरदारी",
+      "persian": "خبرداری",
+      "punjabi": "ਖਬਰਦਾਰੀ",
+      "hindi": "खबरदारी",
+      "urdu": "خبرداری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kharaab",
+    "gloss": "bad",
+    "cat": "",
+    "langs": {
+      "marathi": "खराब",
+      "persian": "خراب",
+      "punjabi": "ਖਰਾਬ",
+      "hindi": "खराब",
+      "urdu": "خراب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kharedee",
+    "gloss": "purchase",
+    "cat": "",
+    "langs": {
+      "marathi": "खरेदी",
+      "persian": "خرید",
+      "punjabi": "ਖਰੇਦੀ",
+      "hindi": "खरेदी",
+      "urdu": "خرید",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "kharCha",
+    "gloss": "expenditure, spending",
+    "cat": "",
+    "langs": {
+      "marathi": "खर्च",
+      "persian": "خرج",
+      "punjabi": "ਖਰਚ",
+      "hindi": "खर्च",
+      "urdu": "خرج",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khalaas",
+    "gloss": "finished, dead",
+    "cat": "",
+    "langs": {
+      "marathi": "खलास",
+      "persian": "خلاص",
+      "punjabi": "ਖਲਾਸ",
+      "hindi": "खलास",
+      "urdu": "خلاص",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khaatar",
+    "gloss": "for, for the purpose of",
+    "cat": "",
+    "langs": {
+      "marathi": "खातर",
+      "persian": "خاطر",
+      "punjabi": "ਖਾਤਰ",
+      "hindi": "खातर",
+      "urdu": "خاطر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khaatmaa",
+    "gloss": "end, finish, kill",
+    "cat": "",
+    "langs": {
+      "marathi": "खात्मा",
+      "persian": "خاتمه",
+      "punjabi": "ਖਾਤਮਾ",
+      "hindi": "खात्मा",
+      "urdu": "خاتمه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khaas",
+    "gloss": "special",
+    "cat": "",
+    "langs": {
+      "marathi": "खास",
+      "persian": "خاص",
+      "punjabi": "ਖਾਸ",
+      "hindi": "खास",
+      "urdu": "خاص",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khisaa",
+    "gloss": "pocket",
+    "cat": "",
+    "langs": {
+      "marathi": "खिसा",
+      "persian": "کیسه",
+      "punjabi": "ਖਿਸਾ",
+      "hindi": "खिसा",
+      "urdu": "کیسه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khuraak",
+    "gloss": "diet, food",
+    "cat": "Cuisine",
+    "langs": {
+      "marathi": "खुराक",
+      "persian": "خوراك",
+      "punjabi": "ਖੁਰਾਕ",
+      "hindi": "खुराक",
+      "urdu": "خوراك",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khurchee",
+    "gloss": "chair",
+    "cat": "",
+    "langs": {
+      "marathi": "खुर्ची",
+      "persian": "کرسی",
+      "punjabi": "ਖੁਰਚੀ",
+      "hindi": "खुर्ची",
+      "urdu": "کرسی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khulaasaa",
+    "gloss": "clarification, revelation",
+    "cat": "",
+    "langs": {
+      "marathi": "खुलासा",
+      "persian": "خلاصه",
+      "punjabi": "ਖੁਲਾਸਾ",
+      "hindi": "खुलासा",
+      "urdu": "خلاصه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khoosh / khooSh",
+    "gloss": "happy",
+    "cat": "",
+    "langs": {
+      "marathi": "खुश/\n  खूष",
+      "persian": "خوش",
+      "punjabi": "ਖੁਸ਼/\n  ਖੂਸ਼",
+      "hindi": "खुश/\n  खूष",
+      "urdu": "خوش",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khoop",
+    "gloss": "very",
+    "cat": "",
+    "langs": {
+      "marathi": "खूप",
+      "persian": "خوب",
+      "punjabi": "ਖੂਪ",
+      "hindi": "खूप",
+      "urdu": "خوب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "khair",
+    "gloss": "well-being",
+    "cat": "",
+    "langs": {
+      "marathi": "खैर",
+      "persian": "خیر",
+      "punjabi": "ਖੈਰ",
+      "hindi": "खैर",
+      "urdu": "خیر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "garaz",
+    "gloss": "need",
+    "cat": "",
+    "langs": {
+      "marathi": "गरज",
+      "persian": "غرض",
+      "punjabi": "ਗਰਜ",
+      "hindi": "गरज",
+      "urdu": "غرض",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "garam",
+    "gloss": "hot, warm",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "गरम",
+      "persian": "گرم",
+      "punjabi": "ਗਰਮ",
+      "hindi": "गरम",
+      "urdu": "گرم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gareeb",
+    "gloss": "poor, humble",
+    "cat": "",
+    "langs": {
+      "marathi": "गरीब",
+      "persian": "غریب",
+      "punjabi": "ਗਰੀਬ",
+      "hindi": "गरीब",
+      "urdu": "غریب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gardee",
+    "gloss": "crowd",
+    "cat": "",
+    "langs": {
+      "marathi": "गर्दी",
+      "persian": "",
+      "punjabi": "ਗਰਦੀ",
+      "hindi": "गर्दी",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "galbat",
+    "gloss": "ship, dhow?",
+    "cat": "",
+    "langs": {
+      "marathi": "गलबत",
+      "persian": "گلبت",
+      "punjabi": "ਗਲਬਤ",
+      "hindi": "गलबत",
+      "urdu": "گلبت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gallat",
+    "gloss": "mistake, blunder, confusion",
+    "cat": "",
+    "langs": {
+      "marathi": "गल्लत",
+      "persian": "غلط",
+      "punjabi": "ਗਲਲਤ",
+      "hindi": "गल्लत",
+      "urdu": "غلط",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gasta",
+    "gloss": "patrol, walk",
+    "cat": "",
+    "langs": {
+      "marathi": "गस्त",
+      "persian": "گشت",
+      "punjabi": "ਗਸਤ",
+      "hindi": "गस्त",
+      "urdu": "گشت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gaapheel / gaafeel",
+    "gloss": "careless, negligent, inattentive",
+    "cat": "",
+    "langs": {
+      "marathi": "गाफील",
+      "persian": "غافل",
+      "punjabi": "ਗਾਫੀਲ",
+      "hindi": "गाफील",
+      "urdu": "غافل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gunhaa",
+    "gloss": "crime",
+    "cat": "",
+    "langs": {
+      "marathi": "गुन्हा",
+      "persian": "گناه",
+      "punjabi": "ਗੁਨਹਾ",
+      "hindi": "गुन्हा",
+      "urdu": "گناه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gunhegaar",
+    "gloss": "criminal (n)",
+    "cat": "",
+    "langs": {
+      "marathi": "गुन्हेगार",
+      "persian": "گناهکار",
+      "punjabi": "ਗੁਨਹੇਗਾਰ",
+      "hindi": "गुन्हेगार",
+      "urdu": "گناهکار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gunhegaaree",
+    "gloss": "criminal (adj), criminality",
+    "cat": "",
+    "langs": {
+      "marathi": "गुन्हेगारी",
+      "persian": "گناهکاری",
+      "punjabi": "ਗੁਨਹੇਗਾਰੀ",
+      "hindi": "गुन्हेगारी",
+      "urdu": "گناهکاری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "guldastaa",
+    "gloss": "bouquet",
+    "cat": "",
+    "langs": {
+      "marathi": "गुलदस्ता",
+      "persian": "گل دستۀ",
+      "punjabi": "ਗੁਲਦਸਤਾ",
+      "hindi": "गुलदस्ता",
+      "urdu": "گل دستۀ",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gair",
+    "gloss": "wrong, inappropriate, non-",
+    "cat": "",
+    "langs": {
+      "marathi": "गैर",
+      "persian": "غیر",
+      "punjabi": "ਗੈਰ",
+      "hindi": "गैर",
+      "urdu": "غیر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "gher",
+    "gloss": "circumference, girth, encirclement",
+    "cat": "",
+    "langs": {
+      "marathi": "घेर",
+      "persian": "غر",
+      "punjabi": "ਘੇਰ",
+      "hindi": "घेर",
+      "urdu": "غر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "ChamChaa",
+    "gloss": "spoon",
+    "cat": "",
+    "langs": {
+      "marathi": "चमचा",
+      "persian": "چمچه",
+      "punjabi": "ਚਮਚਾ",
+      "hindi": "चमचा",
+      "urdu": "چمچه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "chalaakh",
+    "gloss": "smart",
+    "cat": "",
+    "langs": {
+      "marathi": "चलाख",
+      "persian": "چالاك",
+      "punjabi": "ਚਲਾਖ",
+      "hindi": "चलाख",
+      "urdu": "چالاك",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "chaShmaa",
+    "gloss": "spectacles, glasses",
+    "cat": "",
+    "langs": {
+      "marathi": "चष्मा",
+      "persian": "چشم",
+      "punjabi": "ਚਸ਼ਮਾ",
+      "hindi": "चष्मा",
+      "urdu": "چشم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "Chaakree",
+    "gloss": "service",
+    "cat": "",
+    "langs": {
+      "marathi": "चाकरी",
+      "persian": "چاکری",
+      "punjabi": "ਚਾਕਰੀ",
+      "hindi": "चाकरी",
+      "urdu": "چاکری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "Chaakoo",
+    "gloss": "knife",
+    "cat": "",
+    "langs": {
+      "marathi": "चाकू",
+      "persian": "چاکو",
+      "punjabi": "ਚਾਕੂ",
+      "hindi": "चाकू",
+      "urdu": "چاکو",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "Chaadar",
+    "gloss": "bedsheet, bedspread, covering",
+    "cat": "Literature",
+    "langs": {
+      "marathi": "चादर",
+      "persian": "چادر",
+      "punjabi": "ਚਾਦਰ",
+      "hindi": "चादर",
+      "urdu": "چادر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "chilkhat",
+    "gloss": "armour",
+    "cat": "",
+    "langs": {
+      "marathi": "चिलखत",
+      "persian": "چ‍ﮩ‍ل قد",
+      "punjabi": "ਚਿਲਖਤ",
+      "hindi": "चिलखत",
+      "urdu": "چ‍ﮩ‍ل قد",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "cheharaa",
+    "gloss": "face",
+    "cat": "",
+    "langs": {
+      "marathi": "चेहरा",
+      "persian": "چ‍ﮩ‍ره",
+      "punjabi": "ਚੇਹਰਾ",
+      "hindi": "चेहरा",
+      "urdu": "چ‍ﮩ‍ره",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zakham",
+    "gloss": "wound, injury",
+    "cat": "",
+    "langs": {
+      "marathi": "जखम",
+      "persian": "زخم",
+      "punjabi": "ਜਖਮ",
+      "hindi": "जखम",
+      "urdu": "زخم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zapta",
+    "gloss": "confiscate",
+    "cat": "",
+    "langs": {
+      "marathi": "जप्त",
+      "persian": "ضبط",
+      "punjabi": "ਜਪਤ",
+      "hindi": "जप्त",
+      "urdu": "ضبط",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zabardasta",
+    "gloss": "terrific",
+    "cat": "",
+    "langs": {
+      "marathi": "जबरदस्त",
+      "persian": "زبردست",
+      "punjabi": "ਜਬਰਦਸਤ",
+      "hindi": "जबरदस्त",
+      "urdu": "زبردست",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zabardastee",
+    "gloss": "coercion, compulsion, constraint, force",
+    "cat": "",
+    "langs": {
+      "marathi": "जबरदस्ती",
+      "persian": "زبردستی",
+      "punjabi": "ਜਬਰਦਸਤੀ",
+      "hindi": "जबरदस्ती",
+      "urdu": "زبردستی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zabaabdaar",
+    "gloss": "responsible",
+    "cat": "",
+    "langs": {
+      "marathi": "जबाबदार",
+      "persian": "جوابدار",
+      "punjabi": "ਜਬਾਬਦਾਰ",
+      "hindi": "जबाबदार",
+      "urdu": "جوابدار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zameen",
+    "gloss": "ground, floor",
+    "cat": "",
+    "langs": {
+      "marathi": "जमीन",
+      "persian": "زمین",
+      "punjabi": "ਜਮੀਨ",
+      "hindi": "जमीन",
+      "urdu": "زمین",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zameendosta",
+    "gloss": "demolished",
+    "cat": "",
+    "langs": {
+      "marathi": "जमीनदोस्त",
+      "persian": "",
+      "punjabi": "ਜਮੀਨਦੋਸਤ",
+      "hindi": "जमीनदोस्त",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zaruree",
+    "gloss": "need, necessity, requirement",
+    "cat": "",
+    "langs": {
+      "marathi": "जरुरी",
+      "persian": "ضروری",
+      "punjabi": "ਜਰੁਰੀ",
+      "hindi": "जरुरी",
+      "urdu": "ضروری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zaroor",
+    "gloss": "definitely",
+    "cat": "",
+    "langs": {
+      "marathi": "जरूर",
+      "persian": "ضرور",
+      "punjabi": "ਜਰੂਰ",
+      "hindi": "जरूर",
+      "urdu": "ضرور",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "jahaagirdaar",
+    "gloss": "",
+    "cat": "",
+    "langs": {
+      "marathi": "जहागिरदार",
+      "persian": "جاگیر\n  دار",
+      "punjabi": "ਜਹਾਗਿਰਦਾਰ",
+      "hindi": "जहागिरदार",
+      "urdu": "جاگیر\n  دار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "jahaageer",
+    "gloss": "property, land given as a assignment and tax\n  collection",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "जहागीर",
+      "persian": "جا گیر",
+      "punjabi": "ਜਹਾਗੀਰ",
+      "hindi": "जहागीर",
+      "urdu": "جا گیر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zahaaz",
+    "gloss": "ship",
+    "cat": "",
+    "langs": {
+      "marathi": "जहाज",
+      "persian": "ج‍ﮩ‍از",
+      "punjabi": "ਜਹਾਜ",
+      "hindi": "जहाज",
+      "urdu": "ج‍ﮩ‍از",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zaagaa",
+    "gloss": "place",
+    "cat": "",
+    "langs": {
+      "marathi": "जागा",
+      "persian": "جایگاه",
+      "punjabi": "ਜਾਗਾ",
+      "hindi": "जागा",
+      "urdu": "جایگاه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "jaadoo",
+    "gloss": "magic",
+    "cat": "",
+    "langs": {
+      "marathi": "जादू",
+      "persian": "جادو",
+      "punjabi": "ਜਾਦੂ",
+      "hindi": "जादू",
+      "urdu": "جادو",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zaameen",
+    "gloss": "bail, surety, guarantee",
+    "cat": "",
+    "langs": {
+      "marathi": "जामीन",
+      "persian": "ضامن",
+      "punjabi": "ਜਾਮੀਨ",
+      "hindi": "जामीन",
+      "urdu": "ضامن",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "jaahiraat",
+    "gloss": "advertisement",
+    "cat": "",
+    "langs": {
+      "marathi": "जाहिरात",
+      "persian": "",
+      "punjabi": "ਜਾਹਿਰਾਤ",
+      "hindi": "जाहिरात",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "jinaa",
+    "gloss": "stairs",
+    "cat": "",
+    "langs": {
+      "marathi": "जिना",
+      "persian": "زینه",
+      "punjabi": "ਜਿਨਾ",
+      "hindi": "जिना",
+      "urdu": "زینه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "jinnas",
+    "gloss": "item",
+    "cat": "",
+    "langs": {
+      "marathi": "जिन्नस",
+      "persian": "جنس",
+      "punjabi": "ਜਿਨਨਸ",
+      "hindi": "जिन्नस",
+      "urdu": "جنس",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "jilhaa",
+    "gloss": "district",
+    "cat": "",
+    "langs": {
+      "marathi": "जिल्हा",
+      "persian": "",
+      "punjabi": "ਜਿਲਹਾ",
+      "hindi": "जिल्हा",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "zor",
+    "gloss": "force",
+    "cat": "",
+    "langs": {
+      "marathi": "जोर",
+      "persian": "زور",
+      "punjabi": "ਜੋਰ",
+      "hindi": "जोर",
+      "urdu": "زور",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "jyaadaa / jaasta",
+    "gloss": "more, excessive, extra",
+    "cat": "",
+    "langs": {
+      "marathi": "ज्यादा,\n  जास्त",
+      "persian": "زاید",
+      "punjabi": "ਜਯਾਦਾ,\n  ਜਾਸਤ",
+      "hindi": "ज्यादा,\n  जास्त",
+      "urdu": "زاید",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "Tarbooz",
+    "gloss": "melon",
+    "cat": "",
+    "langs": {
+      "marathi": "टरबूज",
+      "persian": "خربوزه",
+      "punjabi": "ਟਰਬੂਜ",
+      "hindi": "टरबूज",
+      "urdu": "خربوزه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "Daag",
+    "gloss": "stain, blemish, stigma",
+    "cat": "",
+    "langs": {
+      "marathi": "डाग",
+      "persian": "داغ",
+      "punjabi": "ਡਾਗ",
+      "hindi": "डाग",
+      "urdu": "داغ",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "Daaw",
+    "gloss": "game, hand, ladle, malice, move, plot, scheme",
+    "cat": "",
+    "langs": {
+      "marathi": "डाव",
+      "persian": "داو",
+      "punjabi": "ਡਾਵ",
+      "hindi": "डाव",
+      "urdu": "داو",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tambee",
+    "gloss": "reprimand, warning, rebuke, admonition",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "तंबी",
+      "persian": "تنبیه",
+      "punjabi": "ਤੰਬੀ",
+      "hindi": "तंबी",
+      "urdu": "تنبیه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tazveez",
+    "gloss": "provision?",
+    "cat": "",
+    "langs": {
+      "marathi": "तजवीज",
+      "persian": "تجویز",
+      "punjabi": "ਤਜਵੀਜ",
+      "hindi": "तजवीज",
+      "urdu": "تجویز",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "taphaawat",
+    "gloss": "difference, gap",
+    "cat": "",
+    "langs": {
+      "marathi": "तफावत",
+      "persian": "تفاوت",
+      "punjabi": "ਤਫਾਵਤ",
+      "hindi": "तफावत",
+      "urdu": "تفاوت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tabyet",
+    "gloss": "health",
+    "cat": "",
+    "langs": {
+      "marathi": "तब्येत",
+      "persian": "طبیعت",
+      "punjabi": "ਤਬਯੇਤ",
+      "hindi": "तब्येत",
+      "urdu": "طبیعت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tayaar",
+    "gloss": "ready",
+    "cat": "Literature",
+    "langs": {
+      "marathi": "तयार",
+      "persian": "تیار",
+      "punjabi": "ਤਯਾਰ",
+      "hindi": "तयार",
+      "urdu": "تیار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "taraazoo",
+    "gloss": "weighing scales",
+    "cat": "",
+    "langs": {
+      "marathi": "तराजू",
+      "persian": "ترازو",
+      "punjabi": "ਤਰਾਜੂ",
+      "hindi": "तराजू",
+      "urdu": "ترازو",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tarfe",
+    "gloss": "from, on behalf of, through",
+    "cat": "",
+    "langs": {
+      "marathi": "तर्फे",
+      "persian": "",
+      "punjabi": "ਤਰਫੇ",
+      "hindi": "तर्फे",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tarhaa",
+    "gloss": "manner, method, way, kind, sort",
+    "cat": "",
+    "langs": {
+      "marathi": "तऱ्हा",
+      "persian": "طرح",
+      "punjabi": "ਤऱਹਾ",
+      "hindi": "तऱ्हा",
+      "urdu": "طرح",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "talaaw",
+    "gloss": "pond, pool, lake",
+    "cat": "",
+    "langs": {
+      "marathi": "तलाव",
+      "persian": "تالاب",
+      "punjabi": "ਤਲਾਵ",
+      "hindi": "तलाव",
+      "urdu": "تالاب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tasadee",
+    "gloss": "trouble, inconvenience",
+    "cat": "",
+    "langs": {
+      "marathi": "तसदी",
+      "persian": "تصدیع",
+      "punjabi": "ਤਸਦੀ",
+      "hindi": "तसदी",
+      "urdu": "تصدیع",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tahaseel",
+    "gloss": "",
+    "cat": "",
+    "langs": {
+      "marathi": "तहसील",
+      "persian": "تحصیل",
+      "punjabi": "ਤਹਸੀਲ",
+      "hindi": "तहसील",
+      "urdu": "تحصیل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "taakad",
+    "gloss": "power",
+    "cat": "",
+    "langs": {
+      "marathi": "ताकद",
+      "persian": "طاقت",
+      "punjabi": "ਤਾਕਦ",
+      "hindi": "ताकद",
+      "urdu": "طاقت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "taakeed",
+    "gloss": "warning, reprimand, caution",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "ताकीद",
+      "persian": "تاٴکید",
+      "punjabi": "ਤਾਕੀਦ",
+      "hindi": "ताकीद",
+      "urdu": "تاٴکید",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "taaze",
+    "gloss": "fresh",
+    "cat": "",
+    "langs": {
+      "marathi": "ताजे",
+      "persian": "تازه",
+      "punjabi": "ਤਾਜੇ",
+      "hindi": "ताजे",
+      "urdu": "تازه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "taareekh",
+    "gloss": "date",
+    "cat": "",
+    "langs": {
+      "marathi": "तारीख",
+      "persian": "تاریخ",
+      "punjabi": "ਤਾਰੀਖ",
+      "hindi": "तारीख",
+      "urdu": "تاریخ",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "taasheraa",
+    "gloss": "verbal attack, stricture",
+    "cat": "",
+    "langs": {
+      "marathi": "ताशेरा",
+      "persian": "تشر?",
+      "punjabi": "ਤਾਸ਼ੇਰਾ",
+      "hindi": "ताशेरा",
+      "urdu": "تشر?",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tuphaan",
+    "gloss": "extreme, extremely",
+    "cat": "",
+    "langs": {
+      "marathi": "तुफान",
+      "persian": "طوفان",
+      "punjabi": "ਤੁਫਾਨ",
+      "hindi": "तुफान",
+      "urdu": "طوفان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "tof",
+    "gloss": "cannon",
+    "cat": "",
+    "langs": {
+      "marathi": "तोफ",
+      "persian": "توپ",
+      "punjabi": "ਤੋਫ",
+      "hindi": "तोफ",
+      "urdu": "توپ",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dakhal",
+    "gloss": "attention, cognizance, heed, notice",
+    "cat": "",
+    "langs": {
+      "marathi": "दखल",
+      "persian": "دخل",
+      "punjabi": "ਦਖਲ",
+      "hindi": "दखल",
+      "urdu": "دخل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dam",
+    "gloss": "breath, strength",
+    "cat": "Cuisine",
+    "langs": {
+      "marathi": "दम",
+      "persian": "دم",
+      "punjabi": "ਦਮ",
+      "hindi": "दम",
+      "urdu": "دم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dar",
+    "gloss": "rate, per",
+    "cat": "",
+    "langs": {
+      "marathi": "दर",
+      "persian": "در",
+      "punjabi": "ਦਰ",
+      "hindi": "दर",
+      "urdu": "در",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "darmyaan",
+    "gloss": "during",
+    "cat": "",
+    "langs": {
+      "marathi": "दरम्यान",
+      "persian": "درمیان",
+      "punjabi": "ਦਰਮਯਾਨ",
+      "hindi": "दरम्यान",
+      "urdu": "درمیان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "darwaazaa",
+    "gloss": "door, gate",
+    "cat": "",
+    "langs": {
+      "marathi": "दरवाजा",
+      "persian": "دروازه",
+      "punjabi": "ਦਰਵਾਜਾ",
+      "hindi": "दरवाजा",
+      "urdu": "دروازه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daree",
+    "gloss": "valley",
+    "cat": "",
+    "langs": {
+      "marathi": "दरी",
+      "persian": "دره",
+      "punjabi": "ਦਰੀ",
+      "hindi": "दरी",
+      "urdu": "دره",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "darjaa",
+    "gloss": "quality, level",
+    "cat": "",
+    "langs": {
+      "marathi": "दर्जा",
+      "persian": "درجه",
+      "punjabi": "ਦਰਜਾ",
+      "hindi": "दर्जा",
+      "urdu": "درجه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daryaa",
+    "gloss": "sea, ocean",
+    "cat": "",
+    "langs": {
+      "marathi": "दर्या",
+      "persian": "دریا",
+      "punjabi": "ਦਰਯਾ",
+      "hindi": "दर्या",
+      "urdu": "دریا",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dawaakhaanaa",
+    "gloss": "hospital, clinic",
+    "cat": "",
+    "langs": {
+      "marathi": "दवाखाना",
+      "persian": "دواخانه",
+      "punjabi": "ਦਵਾਖਾਨਾ",
+      "hindi": "दवाखाना",
+      "urdu": "دواخانه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dasta-aiwaz",
+    "gloss": "documents",
+    "cat": "",
+    "langs": {
+      "marathi": "दस्तऐवज",
+      "persian": "دستاویز",
+      "punjabi": "ਦਸਤਐਵਜ",
+      "hindi": "दस्तऐवज",
+      "urdu": "دستاویز",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dahashat",
+    "gloss": "terror, fear",
+    "cat": "",
+    "langs": {
+      "marathi": "दहशत",
+      "persian": "دهشت",
+      "punjabi": "ਦਹਸ਼ਤ",
+      "hindi": "दहशत",
+      "urdu": "دهشت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daakhal",
+    "gloss": "entered, admitted, arrived, filed",
+    "cat": "",
+    "langs": {
+      "marathi": "दाखल",
+      "persian": "دخیل",
+      "punjabi": "ਦਾਖਲ",
+      "hindi": "दाखल",
+      "urdu": "دخیل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daakhalaa",
+    "gloss": "certificate, example",
+    "cat": "",
+    "langs": {
+      "marathi": "दाखला",
+      "persian": "داخله",
+      "punjabi": "ਦਾਖਲਾ",
+      "hindi": "दाखला",
+      "urdu": "داخله",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daaNaa",
+    "gloss": "grain, seed",
+    "cat": "",
+    "langs": {
+      "marathi": "दाणा",
+      "persian": "دانه",
+      "punjabi": "ਦਾਣਾ",
+      "hindi": "दाणा",
+      "urdu": "دانه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daaroo",
+    "gloss": "alcohol, liquor, gunpowder, fireworks",
+    "cat": "",
+    "langs": {
+      "marathi": "दारू",
+      "persian": "دارو",
+      "punjabi": "ਦਾਰੂ",
+      "hindi": "दारू",
+      "urdu": "دارو",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daalan",
+    "gloss": "big room, hall",
+    "cat": "",
+    "langs": {
+      "marathi": "दालन",
+      "persian": "دالان",
+      "punjabi": "ਦਾਲਨ",
+      "hindi": "दालन",
+      "urdu": "دالان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daawaa",
+    "gloss": "challenge, case, suit",
+    "cat": "",
+    "langs": {
+      "marathi": "दावा",
+      "persian": "دعوی",
+      "punjabi": "ਦਾਵਾ",
+      "hindi": "दावा",
+      "urdu": "دعوی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dilgiree",
+    "gloss": "regret, apology, sorrow",
+    "cat": "",
+    "langs": {
+      "marathi": "दिलगिरी",
+      "persian": "دلگیری",
+      "punjabi": "ਦਿਲਗਿਰੀ",
+      "hindi": "दिलगिरी",
+      "urdu": "دلگیری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dilgeer",
+    "gloss": "sorry",
+    "cat": "",
+    "langs": {
+      "marathi": "दिलगीर",
+      "persian": "دلگیر",
+      "punjabi": "ਦਿਲਗੀਰ",
+      "hindi": "दिलगीर",
+      "urdu": "دلگیر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "diwaaNakhaanaa",
+    "gloss": "drawing room",
+    "cat": "",
+    "langs": {
+      "marathi": "दिवाणखाना",
+      "persian": "دیوان\n  خانه",
+      "punjabi": "ਦਿਵਾਣਖਾਨਾ",
+      "hindi": "दिवाणखाना",
+      "urdu": "دیوان\n  خانه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dukaan",
+    "gloss": "shop",
+    "cat": "",
+    "langs": {
+      "marathi": "दुकान",
+      "persian": "دکان",
+      "punjabi": "ਦੁਕਾਨ",
+      "hindi": "दुकान",
+      "urdu": "دکان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "durusta",
+    "gloss": "fixed, repaired",
+    "cat": "",
+    "langs": {
+      "marathi": "दुरुस्त",
+      "persian": "درست",
+      "punjabi": "ਦੁਰੁਸਤ",
+      "hindi": "दुरुस्त",
+      "urdu": "درست",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dosta",
+    "gloss": "friend",
+    "cat": "",
+    "langs": {
+      "marathi": "दोस्त",
+      "persian": "دوست",
+      "punjabi": "ਦੋਸਤ",
+      "hindi": "दोस्त",
+      "urdu": "دوست",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "dauraa",
+    "gloss": "tour?",
+    "cat": "",
+    "langs": {
+      "marathi": "दौरा",
+      "persian": "دوره",
+      "punjabi": "ਦੌਰਾ",
+      "hindi": "दौरा",
+      "urdu": "دوره",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "daulat",
+    "gloss": "wealth, kingdom",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "दौलत",
+      "persian": "دولت",
+      "punjabi": "ਦੌਲਤ",
+      "hindi": "दौलत",
+      "urdu": "دولت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "nakaashaa",
+    "gloss": "map",
+    "cat": "",
+    "langs": {
+      "marathi": "नकाशा",
+      "persian": "نقشه",
+      "punjabi": "ਨਕਾਸ਼ਾ",
+      "hindi": "नकाशा",
+      "urdu": "نقشه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "nakkee",
+    "gloss": "definitely",
+    "cat": "",
+    "langs": {
+      "marathi": "नक्की",
+      "persian": "نقی",
+      "punjabi": "ਨਕਕੀ",
+      "hindi": "नक्की",
+      "urdu": "نقی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "nazar",
+    "gloss": "sight, look",
+    "cat": "",
+    "langs": {
+      "marathi": "नजर",
+      "persian": "نظر",
+      "punjabi": "ਨਜਰ",
+      "hindi": "नजर",
+      "urdu": "نظر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "namunaa",
+    "gloss": "sample",
+    "cat": "",
+    "langs": {
+      "marathi": "नमुना",
+      "persian": "نمونه",
+      "punjabi": "ਨਮੁਨਾ",
+      "hindi": "नमुना",
+      "urdu": "نمونه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "naalaayak",
+    "gloss": "incapable",
+    "cat": "",
+    "langs": {
+      "marathi": "नालायक",
+      "persian": "نالایق",
+      "punjabi": "ਨਾਲਾਯਕ",
+      "hindi": "नालायक",
+      "urdu": "نالایق",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "naashtaa",
+    "gloss": "breakfast",
+    "cat": "",
+    "langs": {
+      "marathi": "नाश्ता",
+      "persian": "ناشتا",
+      "punjabi": "ਨਾਸ਼ਤਾ",
+      "hindi": "नाश्ता",
+      "urdu": "ناشتا",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "nuksaan",
+    "gloss": "loss",
+    "cat": "",
+    "langs": {
+      "marathi": "नुकसान",
+      "persian": "نقصان",
+      "punjabi": "ਨੁਕਸਾਨ",
+      "hindi": "नुकसान",
+      "urdu": "نقصان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "nestanaaboot",
+    "gloss": "demolished, destroyed",
+    "cat": "",
+    "langs": {
+      "marathi": "नेस्तनाबूत",
+      "persian": "",
+      "punjabi": "ਨੇਸਤਨਾਬੂਤ",
+      "hindi": "नेस्तनाबूत",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "nokar",
+    "gloss": "servant",
+    "cat": "",
+    "langs": {
+      "marathi": "नोकर",
+      "persian": "نوکر",
+      "punjabi": "ਨੋਕਰ",
+      "hindi": "नोकर",
+      "urdu": "نوکر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "nokaree",
+    "gloss": "service, job",
+    "cat": "",
+    "langs": {
+      "marathi": "नोकरी",
+      "persian": "نوکری",
+      "punjabi": "ਨੋਕਰੀ",
+      "hindi": "नोकरी",
+      "urdu": "نوکری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "panjaa",
+    "gloss": "palm, claw, paw",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "पंजा",
+      "persian": "پنجه",
+      "punjabi": "ਪੰਜਾ",
+      "hindi": "पंजा",
+      "urdu": "پنجه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "paDadaa",
+    "gloss": "curtain, membrane",
+    "cat": "",
+    "langs": {
+      "marathi": "पडदा",
+      "persian": "پرده",
+      "punjabi": "ਪਡਦਾ",
+      "hindi": "पडदा",
+      "urdu": "پرده",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "parawaanagee",
+    "gloss": "permission",
+    "cat": "",
+    "langs": {
+      "marathi": "परवानगी",
+      "persian": "پروانگی",
+      "punjabi": "ਪਰਵਾਨਗੀ",
+      "hindi": "परवानगी",
+      "urdu": "پروانگی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "parawaanaa",
+    "gloss": "permit",
+    "cat": "",
+    "langs": {
+      "marathi": "परवाना",
+      "persian": "پروانچه",
+      "punjabi": "ਪਰਵਾਨਾ",
+      "hindi": "परवाना",
+      "urdu": "پروانچه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "paraagandaa",
+    "gloss": "vagrant; absconded; dispersed or scattered,\n  captivity, captured",
+    "cat": "",
+    "langs": {
+      "marathi": "परागंदा",
+      "persian": "پراگنده",
+      "punjabi": "ਪਰਾਗੰਦਾ",
+      "hindi": "परागंदा",
+      "urdu": "پراگنده",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "parvaa",
+    "gloss": "heed",
+    "cat": "",
+    "langs": {
+      "marathi": "पर्वा",
+      "persian": "پروا",
+      "punjabi": "ਪਰਵਾ",
+      "hindi": "पर्वा",
+      "urdu": "پروا",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "palang",
+    "gloss": "bed, couch",
+    "cat": "",
+    "langs": {
+      "marathi": "पलंग",
+      "persian": "پالنگ",
+      "punjabi": "ਪਲੰਗ",
+      "hindi": "पलंग",
+      "urdu": "پالنگ",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "palangpos",
+    "gloss": "bedspread, coverlet",
+    "cat": "Literature",
+    "langs": {
+      "marathi": "पलंगपोस",
+      "persian": "پالنگ\n  پوش",
+      "punjabi": "ਪਲੰਗਪੋਸ",
+      "hindi": "पलंगपोस",
+      "urdu": "پالنگ\n  پوش",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "pasanta",
+    "gloss": "choice, liked",
+    "cat": "",
+    "langs": {
+      "marathi": "पसंत",
+      "persian": "پسند",
+      "punjabi": "ਪਸੰਤ",
+      "hindi": "पसंत",
+      "urdu": "پسند",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "pahaaraa",
+    "gloss": "guard duty, watch",
+    "cat": "",
+    "langs": {
+      "marathi": "पहारा",
+      "persian": "پ‍ﮩ‍ره",
+      "punjabi": "ਪਹਾਰਾ",
+      "hindi": "पहारा",
+      "urdu": "پ‍ﮩ‍ره",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "pahilwaan",
+    "gloss": "wrestler, bodybuilder",
+    "cat": "",
+    "langs": {
+      "marathi": "पहिलवान",
+      "persian": "پ‍ﮩ‍لوان",
+      "punjabi": "ਪਹਿਲਵਾਨ",
+      "hindi": "पहिलवान",
+      "urdu": "پ‍ﮩ‍لوان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "paayaa",
+    "gloss": "foundation, base",
+    "cat": "",
+    "langs": {
+      "marathi": "पाया",
+      "persian": "پایه",
+      "punjabi": "ਪਾਯਾ",
+      "hindi": "पाया",
+      "urdu": "پایه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "pailoo",
+    "gloss": "aspect, facet",
+    "cat": "",
+    "langs": {
+      "marathi": "पैलू",
+      "persian": "پهلو",
+      "punjabi": "ਪੈਲੂ",
+      "hindi": "पैलू",
+      "urdu": "پهلو",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "polaad",
+    "gloss": "steel",
+    "cat": "",
+    "langs": {
+      "marathi": "पोलाद",
+      "persian": "پولاد/ فولاد",
+      "punjabi": "ਪੋਲਾਦ",
+      "hindi": "पोलाद",
+      "urdu": "پولاد/ فولاد",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "poshaakh",
+    "gloss": "dress/ outfit",
+    "cat": "",
+    "langs": {
+      "marathi": "पोशाख",
+      "persian": "پوشاك",
+      "punjabi": "ਪੋਸ਼ਾਖ",
+      "hindi": "पोशाख",
+      "urdu": "پوشاك",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "phakta / fakta",
+    "gloss": "only",
+    "cat": "",
+    "langs": {
+      "marathi": "फक्त",
+      "persian": "فقط",
+      "punjabi": "ਫਕਤ",
+      "hindi": "फक्त",
+      "urdu": "فقط",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "pharak / farak",
+    "gloss": "difference",
+    "cat": "",
+    "langs": {
+      "marathi": "फरक",
+      "persian": "فرق",
+      "punjabi": "ਫਰਕ",
+      "hindi": "फरक",
+      "urdu": "فرق",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "pharshee",
+    "gloss": "tiled floor, flooring, tiling",
+    "cat": "",
+    "langs": {
+      "marathi": "फरशी",
+      "persian": "فرش",
+      "punjabi": "ਫਰਸ਼ੀ",
+      "hindi": "फरशी",
+      "urdu": "فرش",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "farmaan",
+    "gloss": "order, decree",
+    "cat": "",
+    "langs": {
+      "marathi": "फर्मान",
+      "persian": "فرمان",
+      "punjabi": "ਫਰਮਾਨ",
+      "hindi": "फर्मान",
+      "urdu": "فرمان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "phaajeel / faajeel",
+    "gloss": "excess, improper",
+    "cat": "",
+    "langs": {
+      "marathi": "फाजील",
+      "persian": "فاضل",
+      "punjabi": "ਫਾਜੀਲ",
+      "hindi": "फाजील",
+      "urdu": "فاضل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "faayadaa",
+    "gloss": "advantage, use",
+    "cat": "",
+    "langs": {
+      "marathi": "फायदा",
+      "persian": "فایده",
+      "punjabi": "ਫਾਯਦਾ",
+      "hindi": "फायदा",
+      "urdu": "فایده",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "fikeer",
+    "gloss": "worry",
+    "cat": "",
+    "langs": {
+      "marathi": "फिकीर",
+      "persian": "فکر",
+      "punjabi": "ਫਿਕੀਰ",
+      "hindi": "फिकीर",
+      "urdu": "فکر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "firyaad",
+    "gloss": "plaint, suit, information, legal action",
+    "cat": "",
+    "langs": {
+      "marathi": "फिर्याद",
+      "persian": "فریاد",
+      "punjabi": "ਫਿਰਯਾਦ",
+      "hindi": "फिर्याद",
+      "urdu": "فریاد",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "fursat",
+    "gloss": "respite",
+    "cat": "",
+    "langs": {
+      "marathi": "फुरसत",
+      "persian": "فرصت",
+      "punjabi": "ਫੁਰਸਤ",
+      "hindi": "फुरसत",
+      "urdu": "فرصت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "phauz / fauz",
+    "gloss": "army",
+    "cat": "",
+    "langs": {
+      "marathi": "फौज",
+      "persian": "فوج",
+      "punjabi": "ਫੌਜ",
+      "hindi": "फौज",
+      "urdu": "فوج",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "banda",
+    "gloss": "closed (adj), ties / lace (noun)",
+    "cat": "",
+    "langs": {
+      "marathi": "बंद",
+      "persian": "بند",
+      "punjabi": "ਬੰਦ",
+      "hindi": "बंद",
+      "urdu": "بند",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bandar",
+    "gloss": "port, harbour",
+    "cat": "",
+    "langs": {
+      "marathi": "बंदर",
+      "persian": "بندر",
+      "punjabi": "ਬੰਦਰ",
+      "hindi": "बंदर",
+      "urdu": "بندر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bandobasta",
+    "gloss": "provisions, arrangement",
+    "cat": "",
+    "langs": {
+      "marathi": "बंदोबस्त",
+      "persian": "بندوبست",
+      "punjabi": "ਬੰਦੋਬਸਤ",
+      "hindi": "बंदोबस्त",
+      "urdu": "بندوبست",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bakshees",
+    "gloss": "reward",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "बक्षीस",
+      "persian": "بخشش",
+      "punjabi": "ਬਕਸ਼ੀਸ",
+      "hindi": "बक्षीस",
+      "urdu": "بخشش",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bakhar",
+    "gloss": "",
+    "cat": "",
+    "langs": {
+      "marathi": "बखर",
+      "persian": "",
+      "punjabi": "ਬਖਰ",
+      "hindi": "बखर",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "badak",
+    "gloss": "duck",
+    "cat": "",
+    "langs": {
+      "marathi": "बदक",
+      "persian": "بط",
+      "punjabi": "ਬਦਕ",
+      "hindi": "बदक",
+      "urdu": "بط",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "badal",
+    "gloss": "change",
+    "cat": "",
+    "langs": {
+      "marathi": "बदल",
+      "persian": "بدل",
+      "punjabi": "ਬਦਲ",
+      "hindi": "बदल",
+      "urdu": "بدل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "barakhaasta",
+    "gloss": "dismiss, adjourn",
+    "cat": "",
+    "langs": {
+      "marathi": "बरखास्त",
+      "persian": "برخاست",
+      "punjabi": "ਬਰਖਾਸਤ",
+      "hindi": "बरखास्त",
+      "urdu": "برخاست",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "barobar",
+    "gloss": "correct, equal",
+    "cat": "",
+    "langs": {
+      "marathi": "बरोबर",
+      "persian": "برابر",
+      "punjabi": "ਬਰੋਬਰ",
+      "hindi": "बरोबर",
+      "urdu": "برابر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "barobaree",
+    "gloss": "competition, comparison",
+    "cat": "",
+    "langs": {
+      "marathi": "बरोबरी",
+      "persian": "برابری",
+      "punjabi": "ਬਰੋਬਰੀ",
+      "hindi": "बरोबरी",
+      "urdu": "برابری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "barfa / barpha",
+    "gloss": "ice, snow",
+    "cat": "",
+    "langs": {
+      "marathi": "बर्फ",
+      "persian": "برف",
+      "punjabi": "ਬਰਫ",
+      "hindi": "बर्फ",
+      "urdu": "برف",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bas / baas",
+    "gloss": "enough, stop",
+    "cat": "",
+    "langs": {
+      "marathi": "बस\n  / बास",
+      "persian": "بس",
+      "punjabi": "ਬਸ\n  / ਬਾਸ",
+      "hindi": "बस\n  / बास",
+      "urdu": "بس",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bastaan",
+    "gloss": "",
+    "cat": "",
+    "langs": {
+      "marathi": "बस्तान",
+      "persian": "",
+      "punjabi": "ਬਸਤਾਨ",
+      "hindi": "बस्तान",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bahaaNaa",
+    "gloss": "excuse",
+    "cat": "",
+    "langs": {
+      "marathi": "बहाणा",
+      "persian": "بهانه",
+      "punjabi": "ਬਹਾਣਾ",
+      "hindi": "बहाणा",
+      "urdu": "بهانه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baaee",
+    "gloss": "woman",
+    "cat": "",
+    "langs": {
+      "marathi": "बाई",
+      "persian": "",
+      "punjabi": "ਬਾਈ",
+      "hindi": "बाई",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baakee",
+    "gloss": "remaining, remainder, balance",
+    "cat": "",
+    "langs": {
+      "marathi": "बाकी",
+      "persian": "باقی",
+      "punjabi": "ਬਾਕੀ",
+      "hindi": "बाकी",
+      "urdu": "باقی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baag",
+    "gloss": "garden",
+    "cat": "",
+    "langs": {
+      "marathi": "बाग",
+      "persian": "باغ",
+      "punjabi": "ਬਾਗ",
+      "hindi": "बाग",
+      "urdu": "باغ",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baazaar",
+    "gloss": "market",
+    "cat": "Commerce",
+    "langs": {
+      "marathi": "बाजार",
+      "persian": "بازار",
+      "punjabi": "ਬਾਜਾਰ",
+      "hindi": "बाजार",
+      "urdu": "بازار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baab",
+    "gloss": "matter, topic",
+    "cat": "",
+    "langs": {
+      "marathi": "बाब",
+      "persian": "باب",
+      "punjabi": "ਬਾਬ",
+      "hindi": "बाब",
+      "urdu": "باب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baabat",
+    "gloss": "regarding",
+    "cat": "",
+    "langs": {
+      "marathi": "बाबत",
+      "persian": "بابت",
+      "punjabi": "ਬਾਬਤ",
+      "hindi": "बाबत",
+      "urdu": "بابت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baabaa",
+    "gloss": "father",
+    "cat": "",
+    "langs": {
+      "marathi": "बाबा",
+      "persian": "بابا",
+      "punjabi": "ਬਾਬਾ",
+      "hindi": "बाबा",
+      "urdu": "بابا",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baarageer",
+    "gloss": "trooper",
+    "cat": "",
+    "langs": {
+      "marathi": "बारगीर",
+      "persian": "بارگیرٰ",
+      "punjabi": "ਬਾਰਗੀਰ",
+      "hindi": "बारगीर",
+      "urdu": "بارگیرٰ",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "baareek",
+    "gloss": "thin",
+    "cat": "",
+    "langs": {
+      "marathi": "बारीक",
+      "persian": "باریک",
+      "punjabi": "ਬਾਰੀਕ",
+      "hindi": "बारीक",
+      "urdu": "باریک",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bilkul",
+    "gloss": "absolutely",
+    "cat": "",
+    "langs": {
+      "marathi": "बिल्कुल",
+      "persian": "",
+      "punjabi": "ਬਿਲਕੁਲ",
+      "hindi": "बिल्कुल",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bezabaabdaar",
+    "gloss": "irresponsible",
+    "cat": "",
+    "langs": {
+      "marathi": "बेजबाबदार",
+      "persian": "",
+      "punjabi": "ਬੇਜਬਾਬਦਾਰ",
+      "hindi": "बेजबाबदार",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bedarkaar",
+    "gloss": "defiant, uncaring",
+    "cat": "",
+    "langs": {
+      "marathi": "बेदरकार",
+      "persian": "",
+      "punjabi": "ਬੇਦਰਕਾਰ",
+      "hindi": "बेदरकार",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bemaaloom",
+    "gloss": "that may not be perceived, discovered, or\n  detected; hard to be perceived",
+    "cat": "",
+    "langs": {
+      "marathi": "बेमालूम",
+      "persian": "",
+      "punjabi": "ਬੇਮਾਲੂਮ",
+      "hindi": "बेमालूम",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "bogdaa",
+    "gloss": "tunnel",
+    "cat": "",
+    "langs": {
+      "marathi": "बोगदा",
+      "persian": "",
+      "punjabi": "ਬੋਗਦਾ",
+      "hindi": "बोगदा",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "manzuree",
+    "gloss": "permission, approval, consent",
+    "cat": "",
+    "langs": {
+      "marathi": "मंजुरी",
+      "persian": "منظوری",
+      "punjabi": "ਮੰਜੁਰੀ",
+      "hindi": "मंजुरी",
+      "urdu": "منظوری",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maktaa",
+    "gloss": "contract, monopoly",
+    "cat": "",
+    "langs": {
+      "marathi": "मक्ता",
+      "persian": "",
+      "punjabi": "ਮਕਤਾ",
+      "hindi": "मक्ता",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maktedaaree",
+    "gloss": "monopoly",
+    "cat": "",
+    "langs": {
+      "marathi": "मक्तेदारी",
+      "persian": "",
+      "punjabi": "ਮਕਤੇਦਾਰੀ",
+      "hindi": "मक्तेदारी",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mazkoor",
+    "gloss": "text, written matter, content?",
+    "cat": "",
+    "langs": {
+      "marathi": "मजकूर",
+      "persian": "مذکور",
+      "punjabi": "ਮਜਕੂਰ",
+      "hindi": "मजकूर",
+      "urdu": "مذکور",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mazboot",
+    "gloss": "strong",
+    "cat": "",
+    "langs": {
+      "marathi": "मजबूत",
+      "persian": "مضبوط",
+      "punjabi": "ਮਜਬੂਤ",
+      "hindi": "मजबूत",
+      "urdu": "مضبوط",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mazlaa",
+    "gloss": "storey, floor",
+    "cat": "",
+    "langs": {
+      "marathi": "मजला",
+      "persian": "منزلة",
+      "punjabi": "ਮਜਲਾ",
+      "hindi": "मजला",
+      "urdu": "منزلة",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "majaa",
+    "gloss": "fun, joking",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "मजा",
+      "persian": "مزاح",
+      "punjabi": "ਮਜਾ",
+      "hindi": "मजा",
+      "urdu": "مزاح",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "matlab",
+    "gloss": "intention, selfishness, purpose",
+    "cat": "",
+    "langs": {
+      "marathi": "मतलब",
+      "persian": "مطلب",
+      "punjabi": "ਮਤਲਬ",
+      "hindi": "मतलब",
+      "urdu": "مطلب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "madat",
+    "gloss": "help",
+    "cat": "",
+    "langs": {
+      "marathi": "मदत",
+      "persian": "مدد",
+      "punjabi": "ਮਦਤ",
+      "hindi": "मदत",
+      "urdu": "مدد",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "manaaee",
+    "gloss": "forbidden, restricted",
+    "cat": "",
+    "langs": {
+      "marathi": "मनाई",
+      "persian": "من‍ﮩ‍ائی",
+      "punjabi": "ਮਨਾਈ",
+      "hindi": "मनाई",
+      "urdu": "من‍ﮩ‍ائی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "marjee",
+    "gloss": "wish, will",
+    "cat": "",
+    "langs": {
+      "marathi": "मर्जी",
+      "persian": "مرضی",
+      "punjabi": "ਮਰਜੀ",
+      "hindi": "मर्जी",
+      "urdu": "مرضی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maskaree",
+    "gloss": "joke, teasing",
+    "cat": "",
+    "langs": {
+      "marathi": "मस्करी",
+      "persian": "مسخره",
+      "punjabi": "ਮਸਕਰੀ",
+      "hindi": "मस्करी",
+      "urdu": "مسخره",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maskaa",
+    "gloss": "butter, praise",
+    "cat": "",
+    "langs": {
+      "marathi": "मस्का",
+      "persian": "مسکه",
+      "punjabi": "ਮਸਕਾ",
+      "hindi": "मस्का",
+      "urdu": "مسکه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "masta",
+    "gloss": "nice, awesome, fun",
+    "cat": "",
+    "langs": {
+      "marathi": "मस्त",
+      "persian": "مست",
+      "punjabi": "ਮਸਤ",
+      "hindi": "मस्त",
+      "urdu": "مست",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maajee",
+    "gloss": "former",
+    "cat": "",
+    "langs": {
+      "marathi": "माजी",
+      "persian": "ماضی",
+      "punjabi": "ਮਾਜੀ",
+      "hindi": "माजी",
+      "urdu": "ماضی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maatabbar",
+    "gloss": "powerful, prestigious, respectable, influential",
+    "cat": "",
+    "langs": {
+      "marathi": "मातब्बर",
+      "persian": "معتبر",
+      "punjabi": "ਮਾਤਬਬਰ",
+      "hindi": "मातब्बर",
+      "urdu": "معتبر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maaf",
+    "gloss": "pardoned, forgiven, exempt",
+    "cat": "",
+    "langs": {
+      "marathi": "माफ",
+      "persian": "معاف",
+      "punjabi": "ਮਾਫ",
+      "hindi": "माफ",
+      "urdu": "معاف",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maamlaa",
+    "gloss": "matter, case, affair",
+    "cat": "",
+    "langs": {
+      "marathi": "मामला",
+      "persian": "معاملة /\n  معامله",
+      "punjabi": "ਮਾਮਲਾ",
+      "hindi": "मामला",
+      "urdu": "معاملة /\n  معامله",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maamaa",
+    "gloss": "uncle, mother’s brother",
+    "cat": "",
+    "langs": {
+      "marathi": "मामा",
+      "persian": "ماٴمون",
+      "punjabi": "ਮਾਮਾ",
+      "hindi": "मामा",
+      "urdu": "ماٴمون",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maarfat",
+    "gloss": "through, from",
+    "cat": "",
+    "langs": {
+      "marathi": "मार्फत",
+      "persian": "معرفة",
+      "punjabi": "ਮਾਰਫਤ",
+      "hindi": "मार्फत",
+      "urdu": "معرفة",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maal",
+    "gloss": "stuff, property, money",
+    "cat": "Finance",
+    "langs": {
+      "marathi": "माल",
+      "persian": "مال",
+      "punjabi": "ਮਾਲ",
+      "hindi": "माल",
+      "urdu": "مال",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maalak",
+    "gloss": "owner",
+    "cat": "",
+    "langs": {
+      "marathi": "मालक",
+      "persian": "مالك",
+      "punjabi": "ਮਾਲਕ",
+      "hindi": "मालक",
+      "urdu": "مالك",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maalaamaal",
+    "gloss": "with lots of money",
+    "cat": "Finance",
+    "langs": {
+      "marathi": "मालामाल",
+      "persian": "مالامال",
+      "punjabi": "ਮਾਲਾਮਾਲ",
+      "hindi": "मालामाल",
+      "urdu": "مالامال",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maalish",
+    "gloss": "massage",
+    "cat": "",
+    "langs": {
+      "marathi": "मालिश",
+      "persian": "مالش",
+      "punjabi": "ਮਾਲਿਸ਼",
+      "hindi": "मालिश",
+      "urdu": "مالش",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "miLkat",
+    "gloss": "property",
+    "cat": "",
+    "langs": {
+      "marathi": "मिळकत",
+      "persian": "ملکة",
+      "punjabi": "ਮਿਲ਼ਕਤ",
+      "hindi": "मिळकत",
+      "urdu": "ملکة",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mudat",
+    "gloss": "time period",
+    "cat": "",
+    "langs": {
+      "marathi": "मुदत",
+      "persian": "مدت",
+      "punjabi": "ਮੁਦਤ",
+      "hindi": "मुदत",
+      "urdu": "مدت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "muddaa",
+    "gloss": "issue, point, matter",
+    "cat": "",
+    "langs": {
+      "marathi": "मुद्दा",
+      "persian": "ماده",
+      "punjabi": "ਮੁਦਦਾ",
+      "hindi": "मुद्दा",
+      "urdu": "ماده",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mulaamaa",
+    "gloss": "plating, gilding",
+    "cat": "",
+    "langs": {
+      "marathi": "मुलामा",
+      "persian": "ملمع",
+      "punjabi": "ਮੁਲਾਮਾ",
+      "hindi": "मुलामा",
+      "urdu": "ملمع",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mulahizaa",
+    "gloss": "consideration, thought",
+    "cat": "",
+    "langs": {
+      "marathi": "मुलाहिजा",
+      "persian": "ملاحظه",
+      "punjabi": "ਮੁਲਾਹਿਜਾ",
+      "hindi": "मुलाहिजा",
+      "urdu": "ملاحظه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mulukh",
+    "gloss": "territory, area, land",
+    "cat": "",
+    "langs": {
+      "marathi": "मुलुख",
+      "persian": "ملك",
+      "punjabi": "ਮੁਲੁਖ",
+      "hindi": "मुलुख",
+      "urdu": "ملك",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mushkil",
+    "gloss": "difficult",
+    "cat": "",
+    "langs": {
+      "marathi": "मुश्कील",
+      "persian": "مشگل",
+      "punjabi": "ਮੁਸ਼ਕੀਲ",
+      "hindi": "मुश्कील",
+      "urdu": "مشگل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mej",
+    "gloss": "table",
+    "cat": "",
+    "langs": {
+      "marathi": "मेज",
+      "persian": "میز",
+      "punjabi": "ਮੇਜ",
+      "hindi": "मेज",
+      "urdu": "میز",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mehnat",
+    "gloss": "hard work",
+    "cat": "",
+    "langs": {
+      "marathi": "मेहनत",
+      "persian": "محنت",
+      "punjabi": "ਮੇਹਨਤ",
+      "hindi": "मेहनत",
+      "urdu": "محنت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "meherbaanee",
+    "gloss": "favour, kindness",
+    "cat": "",
+    "langs": {
+      "marathi": "मेहेरबानी",
+      "persian": "مهربانی\n  / م‍ﮩ‍ربانی",
+      "punjabi": "ਮੇਹੇਰਬਾਨੀ",
+      "hindi": "मेहेरबानी",
+      "urdu": "مهربانی\n  / م‍ﮩ‍ربانی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "maidaan",
+    "gloss": "playground",
+    "cat": "",
+    "langs": {
+      "marathi": "मैदान",
+      "persian": "میدان",
+      "punjabi": "ਮੈਦਾਨ",
+      "hindi": "मैदान",
+      "urdu": "میدان",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mozaa",
+    "gloss": "sock",
+    "cat": "",
+    "langs": {
+      "marathi": "मोजा",
+      "persian": "موزه",
+      "punjabi": "ਮੋਜਾ",
+      "hindi": "मोजा",
+      "urdu": "موزه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mophat / mofat",
+    "gloss": "free",
+    "cat": "",
+    "langs": {
+      "marathi": "मोफत",
+      "persian": "مفت",
+      "punjabi": "ਮੋਫਤ",
+      "hindi": "मोफत",
+      "urdu": "مفت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "mauz",
+    "gloss": "fun, enjoyment",
+    "cat": "",
+    "langs": {
+      "marathi": "मौज",
+      "persian": "موج",
+      "punjabi": "ਮੌਜ",
+      "hindi": "मौज",
+      "urdu": "موج",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "rakkam",
+    "gloss": "amount, figure, money",
+    "cat": "Finance",
+    "langs": {
+      "marathi": "रक्कम",
+      "persian": "رقم",
+      "punjabi": "ਰਕਕਮ",
+      "hindi": "रक्कम",
+      "urdu": "رقم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "razaa",
+    "gloss": "leave of absence",
+    "cat": "",
+    "langs": {
+      "marathi": "रजा",
+      "persian": "رضا",
+      "punjabi": "ਰਜਾ",
+      "hindi": "रजा",
+      "urdu": "رضا",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "radda",
+    "gloss": "cancel",
+    "cat": "",
+    "langs": {
+      "marathi": "रद्द",
+      "persian": "رد",
+      "punjabi": "ਰਦਦ",
+      "hindi": "रद्द",
+      "urdu": "رد",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "rasad",
+    "gloss": "supply",
+    "cat": "",
+    "langs": {
+      "marathi": "रसद",
+      "persian": "رسد",
+      "punjabi": "ਰਸਦ",
+      "hindi": "रसद",
+      "urdu": "رسد",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "rastaa",
+    "gloss": "road",
+    "cat": "",
+    "langs": {
+      "marathi": "रस्ता",
+      "persian": "راسته",
+      "punjabi": "ਰਸਤਾ",
+      "hindi": "रस्ता",
+      "urdu": "راسته",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "raasta",
+    "gloss": "fair?, just, reasonable",
+    "cat": "",
+    "langs": {
+      "marathi": "रास्त",
+      "persian": "راست",
+      "punjabi": "ਰਾਸਤ",
+      "hindi": "रास्त",
+      "urdu": "راست",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "rumaal",
+    "gloss": "handkerchief",
+    "cat": "",
+    "langs": {
+      "marathi": "रुमाल",
+      "persian": "رمال",
+      "punjabi": "ਰੁਮਾਲ",
+      "hindi": "रुमाल",
+      "urdu": "رمال",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "roShaNaaee",
+    "gloss": "illumination",
+    "cat": "",
+    "langs": {
+      "marathi": "रोषणाई",
+      "persian": "روشنائی",
+      "punjabi": "ਰੋਸ਼ਣਾਈ",
+      "hindi": "रोषणाई",
+      "urdu": "روشنائی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "lazzat",
+    "gloss": "taste",
+    "cat": "",
+    "langs": {
+      "marathi": "लज्जत",
+      "persian": "لذة",
+      "punjabi": "ਲਜਜਤ",
+      "hindi": "लज्जत",
+      "urdu": "لذة",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "lawaazamaa",
+    "gloss": "baggage, entourage, paraphernalia",
+    "cat": "",
+    "langs": {
+      "marathi": "लवाजमा",
+      "persian": "لوازم",
+      "punjabi": "ਲਵਾਜਮਾ",
+      "hindi": "लवाजमा",
+      "urdu": "لوازم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "laayak",
+    "gloss": "suitable, capable",
+    "cat": "",
+    "langs": {
+      "marathi": "लायक",
+      "persian": "لایق",
+      "punjabi": "ਲਾਯਕ",
+      "hindi": "लायक",
+      "urdu": "لایق",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "wakeel",
+    "gloss": "advocate, lawyer",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "वकील",
+      "persian": "وکیل",
+      "punjabi": "ਵਕੀਲ",
+      "hindi": "वकील",
+      "urdu": "وکیل",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "wagaire",
+    "gloss": "etcetera",
+    "cat": "",
+    "langs": {
+      "marathi": "वगैरे",
+      "persian": "وغیره",
+      "punjabi": "ਵਗੈਰੇ",
+      "hindi": "वगैरे",
+      "urdu": "وغیره",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "wazaa",
+    "gloss": "minus, subtracted, less",
+    "cat": "",
+    "langs": {
+      "marathi": "वजा",
+      "persian": "",
+      "punjabi": "ਵਜਾ",
+      "hindi": "वजा",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "wasool",
+    "gloss": "collect (payment), recover",
+    "cat": "",
+    "langs": {
+      "marathi": "वसूल",
+      "persian": "وصول",
+      "punjabi": "ਵਸੂਲ",
+      "hindi": "वसूल",
+      "urdu": "وصول",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "waa / wwaa",
+    "gloss": "Bravo! Excellent!",
+    "cat": "",
+    "langs": {
+      "marathi": "वा\n  / व्वा",
+      "persian": "به/ به به",
+      "punjabi": "ਵਾ\n  / ਵਵਾ",
+      "hindi": "वा\n  / व्वा",
+      "urdu": "به/ به به",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "wairaaN",
+    "gloss": "barren, dry, desolate",
+    "cat": "",
+    "langs": {
+      "marathi": "वैराण",
+      "persian": "ویران",
+      "punjabi": "ਵੈਰਾਣ",
+      "hindi": "वैराण",
+      "urdu": "ویران",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sharam",
+    "gloss": "shame",
+    "cat": "",
+    "langs": {
+      "marathi": "शरम",
+      "persian": "شرم",
+      "punjabi": "ਸ਼ਰਮ",
+      "hindi": "शरम",
+      "urdu": "شرم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shahar",
+    "gloss": "city",
+    "cat": "",
+    "langs": {
+      "marathi": "शहर",
+      "persian": "ش‍ﮩ‍ر",
+      "punjabi": "ਸ਼ਹਰ",
+      "hindi": "शहर",
+      "urdu": "ش‍ﮩ‍ر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shaaee",
+    "gloss": "ink",
+    "cat": "",
+    "langs": {
+      "marathi": "शाई",
+      "persian": "سیاهی",
+      "punjabi": "ਸ਼ਾਈ",
+      "hindi": "शाई",
+      "urdu": "سیاهی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shaan",
+    "gloss": "style, point of pride",
+    "cat": "",
+    "langs": {
+      "marathi": "शान",
+      "persian": "شأن",
+      "punjabi": "ਸ਼ਾਨ",
+      "hindi": "शान",
+      "urdu": "شأن",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shaabit",
+    "gloss": "proven, established",
+    "cat": "",
+    "langs": {
+      "marathi": "शाबित",
+      "persian": "ثابت",
+      "punjabi": "ਸ਼ਾਬਿਤ",
+      "hindi": "शाबित",
+      "urdu": "ثابت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shaaboot",
+    "gloss": "safe, intact, unharmed",
+    "cat": "",
+    "langs": {
+      "marathi": "शाबूत",
+      "persian": "",
+      "punjabi": "ਸ਼ਾਬੂਤ",
+      "hindi": "शाबूत",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shaabbaas",
+    "gloss": "kudos",
+    "cat": "",
+    "langs": {
+      "marathi": "शाब्बास",
+      "persian": "شاباش",
+      "punjabi": "ਸ਼ਾਬਬਾਸ",
+      "hindi": "शाब्बास",
+      "urdu": "شاباش",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shaaheer",
+    "gloss": "poet",
+    "cat": "",
+    "langs": {
+      "marathi": "शाहीर",
+      "persian": "ش‍ﮩ‍یر",
+      "punjabi": "ਸ਼ਾਹੀਰ",
+      "hindi": "शाहीर",
+      "urdu": "ش‍ﮩ‍یر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shikaar",
+    "gloss": "hunt, hunting",
+    "cat": "",
+    "langs": {
+      "marathi": "शिकार",
+      "persian": "شکار",
+      "punjabi": "ਸ਼ਿਕਾਰ",
+      "hindi": "शिकार",
+      "urdu": "شکار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shikkaa",
+    "gloss": "stamp",
+    "cat": "",
+    "langs": {
+      "marathi": "शिक्का",
+      "persian": "سکه",
+      "punjabi": "ਸ਼ਿਕਕਾ",
+      "hindi": "शिक्का",
+      "urdu": "سکه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shipaaee",
+    "gloss": "soldier, constable, peon",
+    "cat": "",
+    "langs": {
+      "marathi": "शिपाई",
+      "persian": "سپاهی",
+      "punjabi": "ਸ਼ਿਪਾਈ",
+      "hindi": "शिपाई",
+      "urdu": "سپاهی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shiphaaras / shifaaras",
+    "gloss": "commendation, recommendation, good word",
+    "cat": "",
+    "langs": {
+      "marathi": "शिफारस",
+      "persian": "سفارش",
+      "punjabi": "ਸ਼ਿਫਾਰਸ",
+      "hindi": "शिफारस",
+      "urdu": "سفارش",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shiledaar",
+    "gloss": "",
+    "cat": "",
+    "langs": {
+      "marathi": "शिलेदार",
+      "persian": "سلاح دار",
+      "punjabi": "ਸ਼ਿਲੇਦਾਰ",
+      "hindi": "शिलेदार",
+      "urdu": "سلاح دار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "shivaay",
+    "gloss": "besides, other than",
+    "cat": "",
+    "langs": {
+      "marathi": "शिवाय",
+      "persian": "سوای",
+      "punjabi": "ਸ਼ਿਵਾਯ",
+      "hindi": "शिवाय",
+      "urdu": "سوای",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sheraa",
+    "gloss": "comment, remark",
+    "cat": "",
+    "langs": {
+      "marathi": "शेरा",
+      "persian": "شرح",
+      "punjabi": "ਸ਼ੇਰਾ",
+      "hindi": "शेरा",
+      "urdu": "شرح",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sandook",
+    "gloss": "box, case",
+    "cat": "",
+    "langs": {
+      "marathi": "संदूक",
+      "persian": "صندوق",
+      "punjabi": "ਸੰਦੂਕ",
+      "hindi": "संदूक",
+      "urdu": "صندوق",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "saktee",
+    "gloss": "compulsion, strictness",
+    "cat": "",
+    "langs": {
+      "marathi": "सक्ती",
+      "persian": "سختی",
+      "punjabi": "ਸਕਤੀ",
+      "hindi": "सक्ती",
+      "urdu": "سختی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "san",
+    "gloss": "year",
+    "cat": "",
+    "langs": {
+      "marathi": "सन",
+      "persian": "سنة",
+      "punjabi": "ਸਨ",
+      "hindi": "सन",
+      "urdu": "سنة",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sanad",
+    "gloss": "charter, grant, document",
+    "cat": "",
+    "langs": {
+      "marathi": "सनद",
+      "persian": "سند",
+      "punjabi": "ਸਨਦ",
+      "hindi": "सनद",
+      "urdu": "سند",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sarkaar",
+    "gloss": "government, boss",
+    "cat": "",
+    "langs": {
+      "marathi": "सरकार",
+      "persian": "سرکار",
+      "punjabi": "ਸਰਕਾਰ",
+      "hindi": "सरकार",
+      "urdu": "سرکار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sarbat",
+    "gloss": "lemonade, syrup, orangeade",
+    "cat": "",
+    "langs": {
+      "marathi": "सरबत",
+      "persian": "شربت",
+      "punjabi": "ਸਰਬਤ",
+      "hindi": "सरबत",
+      "urdu": "شربت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sardee",
+    "gloss": "cold (sickness)",
+    "cat": "",
+    "langs": {
+      "marathi": "सर्दी",
+      "persian": "سردی",
+      "punjabi": "ਸਰਦੀ",
+      "hindi": "सर्दी",
+      "urdu": "سردی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sallaa",
+    "gloss": "advice, suggestion",
+    "cat": "",
+    "langs": {
+      "marathi": "सल्ला",
+      "persian": "صلاح",
+      "punjabi": "ਸਲਲਾ",
+      "hindi": "सल्ला",
+      "urdu": "صلاح",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sahee",
+    "gloss": "correct, signature",
+    "cat": "",
+    "langs": {
+      "marathi": "सही",
+      "persian": "صحیح",
+      "punjabi": "ਸਹੀ",
+      "hindi": "सही",
+      "urdu": "صحیح",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "saad",
+    "gloss": "call, call out",
+    "cat": "",
+    "langs": {
+      "marathi": "साद",
+      "persian": "",
+      "punjabi": "ਸਾਦ",
+      "hindi": "साद",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "saaf",
+    "gloss": "clean, clear",
+    "cat": "",
+    "langs": {
+      "marathi": "साफ",
+      "persian": "صاف",
+      "punjabi": "ਸਾਫ",
+      "hindi": "साफ",
+      "urdu": "صاف",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "saal",
+    "gloss": "year",
+    "cat": "",
+    "langs": {
+      "marathi": "साल",
+      "persian": "سال",
+      "punjabi": "ਸਾਲ",
+      "hindi": "साल",
+      "urdu": "سال",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "saaheb",
+    "gloss": "sir",
+    "cat": "",
+    "langs": {
+      "marathi": "साहेब",
+      "persian": "صاحب",
+      "punjabi": "ਸਾਹੇਬ",
+      "hindi": "साहेब",
+      "urdu": "صاحب",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "susta",
+    "gloss": "languid, relaxed",
+    "cat": "",
+    "langs": {
+      "marathi": "सुस्त",
+      "persian": "سست",
+      "punjabi": "ਸੁਸਤ",
+      "hindi": "सुस्त",
+      "urdu": "سست",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "sobat",
+    "gloss": "with, companionship, company",
+    "cat": "",
+    "langs": {
+      "marathi": "सोबत",
+      "persian": "صحابت",
+      "punjabi": "ਸੋਬਤ",
+      "hindi": "सोबत",
+      "urdu": "صحابت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hangaam",
+    "gloss": "season",
+    "cat": "",
+    "langs": {
+      "marathi": "हंगाम",
+      "persian": "هنگام",
+      "punjabi": "ਹੰਗਾਮ",
+      "hindi": "हंगाम",
+      "urdu": "هنگام",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hakka",
+    "gloss": "rights",
+    "cat": "",
+    "langs": {
+      "marathi": "हक्क",
+      "persian": "حق",
+      "punjabi": "ਹਕਕ",
+      "hindi": "हक्क",
+      "urdu": "حق",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hazar / haajeer",
+    "gloss": "present, existing",
+    "cat": "",
+    "langs": {
+      "marathi": "हजर\n  / हाजीर",
+      "persian": "حاضر",
+      "punjabi": "ਹਜਰ\n  / ਹਾਜੀਰ",
+      "hindi": "हजर\n  / हाजीर",
+      "urdu": "حاضر",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hazaar",
+    "gloss": "thousand",
+    "cat": "",
+    "langs": {
+      "marathi": "हजार",
+      "persian": "هزار",
+      "punjabi": "ਹਜਾਰ",
+      "hindi": "हजार",
+      "urdu": "هزار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hadda",
+    "gloss": "limit, border",
+    "cat": "",
+    "langs": {
+      "marathi": "हद्द",
+      "persian": "حد",
+      "punjabi": "ਹਦਦ",
+      "hindi": "हद्द",
+      "urdu": "حد",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hamee",
+    "gloss": "guarantee, security, surety, undertaking",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "हमी",
+      "persian": "حامی",
+      "punjabi": "ਹਮੀ",
+      "hindi": "हमी",
+      "urdu": "حامی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hayaat",
+    "gloss": "alive, surviving, lifetime",
+    "cat": "",
+    "langs": {
+      "marathi": "हयात",
+      "persian": "حیاة",
+      "punjabi": "ਹਯਾਤ",
+      "hindi": "हयात",
+      "urdu": "حیاة",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "harkat",
+    "gloss": "objection, protest",
+    "cat": "",
+    "langs": {
+      "marathi": "हरकत",
+      "persian": "حركة",
+      "punjabi": "ਹਰਕਤ",
+      "hindi": "हरकत",
+      "urdu": "حركة",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hallaa",
+    "gloss": "attack",
+    "cat": "",
+    "langs": {
+      "marathi": "हल्ला",
+      "persian": "حمله",
+      "punjabi": "ਹਲਲਾ",
+      "hindi": "हल्ला",
+      "urdu": "حمله",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hallee",
+    "gloss": "nowadays",
+    "cat": "",
+    "langs": {
+      "marathi": "हल्ली",
+      "persian": "حالی",
+      "punjabi": "ਹਲਲੀ",
+      "hindi": "हल्ली",
+      "urdu": "حالی",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hawaa",
+    "gloss": "air",
+    "cat": "",
+    "langs": {
+      "marathi": "हवा",
+      "persian": "هوا",
+      "punjabi": "ਹਵਾ",
+      "hindi": "हवा",
+      "urdu": "هوا",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "haalat",
+    "gloss": "state, condition",
+    "cat": "Governance",
+    "langs": {
+      "marathi": "हालत",
+      "persian": "حالت",
+      "punjabi": "ਹਾਲਤ",
+      "hindi": "हालत",
+      "urdu": "حالت",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hissaa",
+    "gloss": "portion, share",
+    "cat": "",
+    "langs": {
+      "marathi": "हिस्सा",
+      "persian": "حصه",
+      "punjabi": "ਹਿਸਸਾ",
+      "hindi": "हिस्सा",
+      "urdu": "حصه",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hukoom",
+    "gloss": "order",
+    "cat": "",
+    "langs": {
+      "marathi": "हुकूम",
+      "persian": "حکم",
+      "punjabi": "ਹੁਕੂਮ",
+      "hindi": "हुकूम",
+      "urdu": "حکم",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "huzzat",
+    "gloss": "argument?",
+    "cat": "",
+    "langs": {
+      "marathi": "हुज्जत",
+      "persian": "",
+      "punjabi": "ਹੁਜਜਤ",
+      "hindi": "हुज्जत",
+      "urdu": "",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "hushaar",
+    "gloss": "smart",
+    "cat": "",
+    "langs": {
+      "marathi": "हुशार",
+      "persian": "هوشیار",
+      "punjabi": "ਹੁਸ਼ਾਰ",
+      "hindi": "हुशार",
+      "urdu": "هوشیار",
+      "indonesian": ""
+    }
+  },
+  {
+    "latin": "haud",
+    "gloss": "tank, pool",
+    "cat": "",
+    "langs": {
+      "marathi": "हौद",
+      "persian": "حوض",
+      "punjabi": "ਹੌਦ",
+      "hindi": "हौद",
+      "urdu": "حوض",
+      "indonesian": ""
+    }
+  }
+]
