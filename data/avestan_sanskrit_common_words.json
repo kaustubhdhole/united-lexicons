@@ -4,9 +4,13 @@
     "gloss": "is; exists (copula, classical)",
     "cat": "Function",
     "langs": {
-      "sanskrit": "अस्ति",
       "marathi": "अस्ति",
-      "hindi": "अस्ति"
+      "persian": "",
+      "sanskrit": "अस्ति",
+      "punjabi": "",
+      "hindi": "अस्ति",
+      "urdu": "",
+      "indonesian": ""
     }
   },
   {
@@ -14,9 +18,13 @@
     "gloss": "song; stanza; narrative verse",
     "cat": "Literature",
     "langs": {
-      "sanskrit": "गाथा",
       "marathi": "गाथा",
-      "hindi": "गाथा"
+      "persian": "",
+      "sanskrit": "गाथा",
+      "punjabi": "",
+      "hindi": "गाथा",
+      "urdu": "",
+      "indonesian": ""
     }
   },
   {
@@ -24,9 +32,12 @@
     "gloss": "earth; land; soil",
     "cat": "Nature",
     "langs": {
-      "sanskrit": "भूमि",
       "marathi": "भूमी",
+      "persian": "",
+      "sanskrit": "भूमि",
+      "punjabi": "",
       "hindi": "भूमि",
+      "urdu": "",
       "indonesian": "bumi"
     }
   },
@@ -35,9 +46,13 @@
     "gloss": "obeisance; salutation",
     "cat": "Religion",
     "langs": {
-      "sanskrit": "नमः",
       "marathi": "नमः",
-      "hindi": "नमः"
+      "persian": "",
+      "sanskrit": "नमः",
+      "punjabi": "",
+      "hindi": "नमः",
+      "urdu": "",
+      "indonesian": ""
     }
   },
   {
@@ -45,9 +60,12 @@
     "gloss": "sacrifice; worship (Avestan rite)",
     "cat": "Religion",
     "langs": {
-      "sanskrit": "यज्ञ",
       "marathi": "यज्ञ",
+      "persian": "",
+      "sanskrit": "यज्ञ",
+      "punjabi": "",
       "hindi": "यज्ञ",
+      "urdu": "",
       "indonesian": "yadnya"
     }
   }
