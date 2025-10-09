@@ -5,8 +5,9 @@ import * as d3 from "d3";
 import { Search, Download } from "lucide-react";
 import baseWords from "../data/common_words.json";
 import additionalWords from "../data/common_words2.json";
+import avestanSanskritWords from "../data/avestan_sanskrit_common_words.json";
 
-const words = [...baseWords, ...additionalWords];
+const words = [...baseWords, ...additionalWords, ...avestanSanskritWords];
 
 // Utility clamp
 const clamp = (v, min, max) => Math.min(max, Math.max(min, v));
