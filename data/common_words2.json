@@ -4288,5 +4288,41 @@
       "urdu": "حوض",
       "indonesian": ""
     }
+  },
+  {
+    "latin": "peshwa",
+    "gloss": "prime minister",
+    "cat": "Titles",
+    "langs": {
+      "marathi": "पेशवा",
+      "persian": "پیشوا"
+    }
+  },
+  {
+    "latin": "killa",
+    "gloss": "fort",
+    "cat": "Architecture",
+    "langs": {
+      "marathi": "किल्ला",
+      "persian": "قلعه"
+    }
+  },
+  {
+    "latin": "killedar",
+    "gloss": "fort commander",
+    "cat": "Titles",
+    "langs": {
+      "marathi": "किलेदार",
+      "persian": "قلعدار"
+    }
+  },
+  {
+    "latin": "saraf",
+    "gloss": "money changer",
+    "cat": "Commerce",
+    "langs": {
+      "marathi": "सराफ",
+      "persian": "صراف"
+    }
   }
 ]

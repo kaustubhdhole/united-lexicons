@@ -3,7 +3,10 @@ import { createRoot } from "react-dom/client";
 import { motion, AnimatePresence } from "framer-motion";
 import * as d3 from "d3";
 import { Search, Download } from "lucide-react";
-import words from "../data/common_words.json";
+import baseWords from "../data/common_words.json";
+import additionalWords from "../data/common_words2.json";
+
+const words = [...baseWords, ...additionalWords];
 
 // Utility clamp
 const clamp = (v, min, max) => Math.min(max, Math.max(min, v));
