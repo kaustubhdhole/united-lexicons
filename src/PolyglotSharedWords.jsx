@@ -7,7 +7,20 @@ import baseWords from "../data/common_words.json";
 import additionalWords from "../data/common_words2.json";
 import avestanSanskritWords from "../data/avestan_sanskrit_common_words.json";
 
-const words = [...baseWords, ...additionalWords, ...avestanSanskritWords];
+const normalizeLangs = (entry) => {
+  const rawLangs = entry && typeof entry.langs === "object" && entry.langs !== null ? entry.langs : {};
+  return Object.entries(rawLangs).reduce((acc, [key, value]) => {
+    if (typeof value === "string" && value.trim().length > 0) {
+      acc[key] = value;
+    }
+    return acc;
+  }, {});
+};
+
+const words = [...baseWords, ...additionalWords, ...avestanSanskritWords].map((entry) => ({
+  ...entry,
+  langs: normalizeLangs(entry),
+}));
 
 // Utility clamp
 const clamp = (v, min, max) => Math.min(max, Math.max(min, v));
@@ -85,13 +98,14 @@ const Tooltip = ({ x, y, show, children }) => {
 };
 
 const HoverPanel = ({ info }) => {
+  const langs = info?.langs && typeof info.langs === "object" ? info.langs : {};
   return (
     <div className="w-full rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
       {info ? (
         <div className="space-y-1">
           <div className="text-xs uppercase tracking-widest text-violet-300/90">Shared word</div>
           <div className="flex flex-wrap items-center gap-2">
-            {Object.entries(info.langs).map(([lang, word]) => (
+            {Object.entries(langs).map(([lang, word]) => (
               <span key={lang} className="rounded bg-white/5 px-2 py-0.5 text-[13px]">
                 {word}
               </span>
@@ -99,7 +113,7 @@ const HoverPanel = ({ info }) => {
           </div>
           <div className="text-sm text-slate-100/90"><span className="opacity-70">Latin:</span> {info.latin}</div>
           <div className="text-xs text-slate-300/90"><span className="opacity-70">Meaning:</span> {info.gloss}</div>
-          <div className="text-[11px] text-slate-400/90">Languages: {Object.keys(info.langs).length}</div>
+          <div className="text-[11px] text-slate-400/90">Languages: {Object.keys(langs).length}</div>
         </div>
       ) : (
         <div className="text-sm text-slate-300/80">Hover a bubble to see details here.</div>
@@ -134,7 +148,7 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
     return data.map((d, i) => ({
       id: i,
       label: d.latin,
-      r: clamp(24 + Object.keys(d.langs).length * 6, 24, 72),
+      r: clamp(24 + Object.keys(d.langs || {}).length * 6, 24, 72),
       d,
     }));
   }, [data]);
@@ -287,8 +301,9 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
           </radialGradient>
         </defs>
         {nodes.map((n) => {
-          const active = selectedLangs.every(l => n.d.langs[l]);
-          const text = showScript === "latin" ? n.d.latin : n.d.langs[showScript] || n.d.latin;
+          const langs = n.d.langs || {};
+          const active = selectedLangs.every(l => langs[l]);
+          const text = showScript === "latin" ? n.d.latin : langs[showScript] || n.d.latin;
           return (
             <g key={n.id}
                transform={`translate(${clamp(n.x || 0, n.r, width - n.r)}, ${clamp(n.y || 0, n.r, height - n.r)})`}
@@ -311,7 +326,7 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
           <div className="space-y-1">
             <div className="text-xs uppercase tracking-widest text-violet-300/90">Shared word</div>
             <div className="flex flex-wrap items-center gap-2">
-              {Object.entries(hover.node.d.langs).map(([lang, word]) => (
+              {Object.entries(hover.node.d.langs || {}).map(([lang, word]) => (
                 <span key={lang} className="rounded bg-white/5 px-2 py-0.5 text-[13px]">
                   {word}
                 </span>
@@ -319,7 +334,7 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
             </div>
             <div className="text-sm text-slate-100/90"><span className="opacity-70">Latin:</span> {hover.node.d.latin}</div>
             <div className="text-xs text-slate-300/90"><span className="opacity-70">Meaning:</span> {hover.node.d.gloss}</div>
-            <div className="text-[11px] text-slate-400/90">Languages: {Object.keys(hover.node.d.langs).length}</div>
+            <div className="text-[11px] text-slate-400/90">Languages: {Object.keys(hover.node.d.langs || {}).length}</div>
           </div>
         )}
       </Tooltip>
@@ -344,7 +359,8 @@ export default function PolyglotSharedWords() {
   const data = useMemo(() => {
     const q = query.trim().toLowerCase();
     return words.filter(d => {
-      const hay = `${d.latin} ${d.gloss} ${Object.values(d.langs).join(" ")}`.toLowerCase();
+      const langs = d.langs || {};
+      const hay = `${d.latin} ${d.gloss} ${Object.values(langs).join(" ")}`.toLowerCase();
       return !q || hay.includes(q);
     });
   }, [query]);
@@ -354,7 +370,10 @@ export default function PolyglotSharedWords() {
   };
 
   const exportJSON = () => {
-    const active = data.filter(d => selectedLangs.every(l => d.langs[l]));
+    const active = data.filter(d => {
+      const langs = d.langs || {};
+      return selectedLangs.every(l => langs[l]);
+    });
     const blob = new Blob([JSON.stringify(active, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -363,7 +382,7 @@ export default function PolyglotSharedWords() {
   };
 
   const stats = useMemo(() => {
-    return data.map(d => ({ word: d.latin, n: Object.keys(d.langs).length }));
+    return data.map(d => ({ word: d.latin, n: Object.keys(d.langs || {}).length }));
   }, [data]);
 
   const t = (typeof window !== "undefined" && window.translations && window.translations[lang]) || (window.translations ? window.translations.en : {});
@@ -459,18 +478,19 @@ export default function PolyglotSharedWords() {
             <div className="mb-3 text-sm font-semibold uppercase tracking-wider opacity-80">Glossary</div>
             <div className="max-h-[420px] space-y-2 overflow-auto pr-2">
               {data.map((d, i) => {
-                const active = selectedLangs.every(l => d.langs[l]);
+                const langs = d.langs || {};
+                const active = selectedLangs.every(l => langs[l]);
                 return (
                   <div key={i} className={`flex items-center justify-between gap-3 rounded-2xl border px-3 py-2 ${active ? 'border-white/10 bg-gradient-to-r from-white/5 to-white/[0.03]' : 'border-white/5 bg-white/5 opacity-60'}`}>
                     <div className="min-w-0">
                       <div className="truncate text-[15px] font-semibold">
-                        {Object.values(d.langs).slice(0,3).map((w,idx) => (
+                        {Object.values(langs).slice(0,3).map((w,idx) => (
                           <span key={idx} className="mr-2 rounded bg-white/5 px-2 py-0.5">{w}</span>
                         ))}
                       </div>
                       <div className="truncate text-sm text-slate-300/90">{d.latin} <span className="opacity-60">—</span> {d.gloss}</div>
                     </div>
-                    <div className="shrink-0 text-xs opacity-70">{Object.keys(d.langs).length}</div>
+                    <div className="shrink-0 text-xs opacity-70">{Object.keys(langs).length}</div>
                   </div>
                 );
               })}
