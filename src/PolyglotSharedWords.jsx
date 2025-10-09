@@ -111,7 +111,7 @@ const HoverPanel = ({ info }) => {
 const randomFloatMeta = () => ({
   angle: Math.random() * Math.PI * 2,
   // Keep bubbles gently drifting instead of racing across the canvas.
-  speed: 0.006 + Math.random() * 0.012,
+  speed: 0.002 + Math.random() * 0.004,
 });
 
 const normalizeAngle = (angle) => {
@@ -158,9 +158,9 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
         if (!isMovingRef.current) return;
         for (const node of localNodes) {
           const meta = ensureMeta(node);
-          if (Math.random() < 0.01) {
+          if (Math.random() < 0.006) {
             meta.angle = normalizeAngle(meta.angle + (Math.random() - 0.5) * (Math.PI / 3));
-            meta.speed = clamp(meta.speed + (Math.random() - 0.5) * 0.003, 0.004, 0.02);
+            meta.speed = clamp(meta.speed + (Math.random() - 0.5) * 0.0015, 0.0015, 0.012);
           }
           node.vx += Math.cos(meta.angle) * meta.speed * alpha;
           node.vy += Math.sin(meta.angle) * meta.speed * alpha;
@@ -175,9 +175,9 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
 
     const sim = d3
       .forceSimulation(initial)
-      .alphaDecay(0.05)
-      .alphaTarget(0.1)
-      .force("charge", d3.forceManyBody().strength(-30))
+      .alphaDecay(0.06)
+      .alphaTarget(0.02)
+      .force("charge", d3.forceManyBody().strength(-24))
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("collision", d3.forceCollide().radius((d) => d.r + 4))
       .force("float", floatForce())
@@ -226,14 +226,15 @@ function Bubbles({ data, showScript, selectedLangs, height = 520, onHover, isMov
       n.fx = null;
       n.fy = null;
     });
-    sim.alpha(0.25).restart();
+    sim.alpha(0.18).restart();
   }, [selectedLangs]);
 
   useEffect(() => {
     const sim = simRef.current;
     if (!sim) return;
     if (isMoving) {
-      sim.alpha(0.2).restart();
+      sim.alphaTarget(0.025);
+      sim.alpha(0.12).restart();
     } else {
       sim.alphaTarget(0);
       sim.nodes().forEach((node) => {
